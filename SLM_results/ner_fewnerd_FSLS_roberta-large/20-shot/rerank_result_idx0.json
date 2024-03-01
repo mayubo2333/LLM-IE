@@ -1,0 +1,904 @@
+[
+    {
+        "sent": "All current Platinum Family Hits are rated `` E '' by the ESRB , except for T-rated `` X-Men Legends `` and three E10+ rated games `` Sonic the Hedgehog `` , ' and ' .",
+        "word": "ESRB",
+        "gt": "organization-other",
+        "old_pred": "organization-sportsleague",
+        "rerank_pred": "organization-sportsleague",
+        "prompt": [
+            "All current Platinum Family Hits are rated `` E '' by the ESRB , except for T-rated `` X-Men Legends `` and three E10+ rated games `` Sonic the Hedgehog `` , ' and ' .\n\n(a) ESRB is a sports league\n(b) ESRB pertains to an organization that does not fall under the categories of company, educational institution, government, media, political party, religion, sports league, sports team, band or musical group.\n(c) ESRB refers to a government or governmental agency\n(d) ESRB is a kind of geopolitical entity\n(e) ESRB do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "Dunwoody 's race victories include the King George VI Chase four times - twice on Desert Orchid in 1989 and 1990 and twice on One Man in 1995 and 1996 .",
+        "word": "Desert Orchid",
+        "gt": "event-sportsevent",
+        "old_pred": "person-athlete",
+        "rerank_pred": "person-athlete",
+        "prompt": [
+            "Dunwoody 's race victories include the King George VI Chase four times - twice on Desert Orchid in 1989 and 1990 and twice on One Man in 1995 and 1996 .\n\n(a) Desert Orchid is an athlete.\n(b) Desert Orchid refers to some event related to sports.\n(c) Desert Orchid is a sports team\n(d) Desert Orchid is a ship.\n(e) Desert Orchid is a kind of car\n(f) Desert Orchid do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "Since 2011 , Shikora has been working at Brigham and Women \u2019 s Hospital as a bariatric surgeon and Professor of Surgery at Harvard Medical School .",
+        "word": "Shikora",
+        "gt": "person-other",
+        "old_pred": "person-scholar",
+        "rerank_pred": "person-other",
+        "prompt": [
+            "Since 2011 , Shikora has been working at Brigham and Women \u2019 s Hospital as a bariatric surgeon and Professor of Surgery at Harvard Medical School .\n\n(a) Shikora is a scholar.\n(b) Shikora is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n(c) Shikora is a soldier\n(d) Shikora is an athlete.\n(e) Shikora refers to some kind of medicine.entity\n(f) Shikora do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (b)"
+    },
+    {
+        "sent": "CrossBridge , a toolkit that targets C++ code to run within the Flash Player , uses the LLVM compiler to produce bytecode that runs up to 10 times faster than code the ActionScript 3 compiler produces , only because the LLVM compiler uses more aggressive optimization .",
+        "word": "C++",
+        "gt": "product-other",
+        "old_pred": "product-software",
+        "rerank_pred": "product-software",
+        "prompt": [
+            "CrossBridge , a toolkit that targets C++ code to run within the Flash Player , uses the LLVM compiler to produce bytecode that runs up to 10 times faster than code the ActionScript 3 compiler produces , only because the LLVM compiler uses more aggressive optimization .\n\n(a) C++ is a software product.\n(b) C++ is a kind of product that does not fall under the categories of airplane, train, ship, car, weapon, food, game and software.\n(c) C++ is a kind of human language.\n(d) C++ is a scholar.\n(e) C++ is a company\n(f) C++ do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "CrossBridge , a toolkit that targets C++ code to run within the Flash Player , uses the LLVM compiler to produce bytecode that runs up to 10 times faster than code the ActionScript 3 compiler produces , only because the LLVM compiler uses more aggressive optimization .",
+        "word": "LLVM",
+        "gt": "product-software",
+        "old_pred": "product-software",
+        "rerank_pred": "product-software",
+        "prompt": [
+            "CrossBridge , a toolkit that targets C++ code to run within the Flash Player , uses the LLVM compiler to produce bytecode that runs up to 10 times faster than code the ActionScript 3 compiler produces , only because the LLVM compiler uses more aggressive optimization .\n\n(a) LLVM is a software product.\n(b) LLVM is a kind of product that does not fall under the categories of airplane, train, ship, car, weapon, food, game and software.\n(c) LLVM do/does not belong to any known entities.\n(d) LLVM is a company\n(e) LLVM is a kind of human language.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "The 2018 Women 's Herald Sun Tour presented by Let 's Go Motorhomes was a women 's cycle stage race held in Australia from 30 to 31 January 2018 .",
+        "word": "Let",
+        "gt": "None",
+        "old_pred": "None",
+        "rerank_pred": "None",
+        "prompt": [
+            "The 2018 Women 's Herald Sun Tour presented by Let 's Go Motorhomes was a women 's cycle stage race held in Australia from 30 to 31 January 2018 .\n\n(a) Let do/does not belong to any known entities.\n(b) Let is a kind of train(vehicle).\n(c) Let is a sports team\n(d) Let is a company\n(e) Let is a kind of car\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "The 2018 Women 's Herald Sun Tour presented by Let 's Go Motorhomes was a women 's cycle stage race held in Australia from 30 to 31 January 2018 .",
+        "word": "Go Motorhomes",
+        "gt": "None",
+        "old_pred": "product-train",
+        "rerank_pred": "organization-company",
+        "prompt": [
+            "The 2018 Women 's Herald Sun Tour presented by Let 's Go Motorhomes was a women 's cycle stage race held in Australia from 30 to 31 January 2018 .\n\n(a) Go Motorhomes is a kind of train(vehicle).\n(b) Go Motorhomes do/does not belong to any known entities.\n(c) Go Motorhomes is a sports team\n(d) Go Motorhomes is a company\n(e) Go Motorhomes is a kind of car\n\nAnswer:"
+        ],
+        "raw_res": " (d)"
+    },
+    {
+        "sent": "A further support for this idea is that there is a mention of one `` Devaputra Shahi Shahanshahi Shaka Murunda `` in Samudragupta 's famous Allahabad inscription , as one of the rulers who paid him homage .",
+        "word": "Samudragupta",
+        "gt": "None",
+        "old_pred": "other-god",
+        "rerank_pred": "None",
+        "prompt": [
+            "A further support for this idea is that there is a mention of one `` Devaputra Shahi Shahanshahi Shaka Murunda `` in Samudragupta 's famous Allahabad inscription , as one of the rulers who paid him homage .\n\n(a) Samudragupta is a god in some legend/religious story.\n(b) Samudragupta is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n(c) Samudragupta is a scholar.\n(d) Samudragupta is a politician.\n(e) Samudragupta is a kind of writtenart.\n(f) Samudragupta do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (f)"
+    },
+    {
+        "sent": "A further support for this idea is that there is a mention of one `` Devaputra Shahi Shahanshahi Shaka Murunda `` in Samudragupta 's famous Allahabad inscription , as one of the rulers who paid him homage .",
+        "word": "Allahabad",
+        "gt": "product-other",
+        "old_pred": "art-writtenart",
+        "rerank_pred": "art-writtenart",
+        "prompt": [
+            "A further support for this idea is that there is a mention of one `` Devaputra Shahi Shahanshahi Shaka Murunda `` in Samudragupta 's famous Allahabad inscription , as one of the rulers who paid him homage .\n\n(a) Allahabad is a kind of writtenart.\n(b) Allahabad is a god in some legend/religious story.\n(c) Allahabad is an art painting.\n(d) Allahabad refers to some event except attack, election, natural disaster, protest, revolution and sports\n(e) Allahabad is a legal document, a term or a convention in legal sense.\n(f) Allahabad do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "He is known for his recovery of funds from the Madoff investment scandal from investors , Bernie Madoff and his family , and their spouses and estates .",
+        "word": "Madoff",
+        "gt": "None",
+        "old_pred": "event-other",
+        "rerank_pred": "event-other",
+        "prompt": [
+            "He is known for his recovery of funds from the Madoff investment scandal from investors , Bernie Madoff and his family , and their spouses and estates .\n\n(a) Madoff refers to some event except attack, election, natural disaster, protest, revolution and sports\n(b) Madoff do/does not belong to any known entities.\n(c) Madoff is a natural disaster event.\n(d) Madoff is a kind of currency.\n(e) Madoff refers to some event related to sports.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "Hula Dancer was retired to broodmare duty in France .",
+        "word": "Hula Dancer",
+        "gt": "other-livingthing",
+        "old_pred": "other-livingthing",
+        "rerank_pred": "other-livingthing",
+        "prompt": [
+            "Hula Dancer was retired to broodmare duty in France .\n\n(a) Hula Dancer is a living animal/creature/organism.\n(b) Hula Dancer is a god in some legend/religious story.\n(c) Hula Dancer is a ship.\n(d) Hula Dancer is an art painting.\n(e) Hula Dancer is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n(f) Hula Dancer do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "Toorie is the offspring of Alinga and Goonaroo , another joey named Yooranah was born to Alinga and Goonaroo in 2013 , but died in 2016 .",
+        "word": "Alinga",
+        "gt": "other-livingthing",
+        "old_pred": "other-livingthing",
+        "rerank_pred": "other-livingthing",
+        "prompt": [
+            "Toorie is the offspring of Alinga and Goonaroo , another joey named Yooranah was born to Alinga and Goonaroo in 2013 , but died in 2016 .\n\n(a) Alinga is a living animal/creature/organism.\n(b) Alinga is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n(c) Alinga do/does not belong to any known entities.\n(d) Alinga is a god in some legend/religious story.\n(e) Alinga is a kind of food.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "Toorie is the offspring of Alinga and Goonaroo , another joey named Yooranah was born to Alinga and Goonaroo in 2013 , but died in 2016 .",
+        "word": "Goonaroo",
+        "gt": "other-livingthing",
+        "old_pred": "other-livingthing",
+        "rerank_pred": "other-livingthing",
+        "prompt": [
+            "Toorie is the offspring of Alinga and Goonaroo , another joey named Yooranah was born to Alinga and Goonaroo in 2013 , but died in 2016 .\n\n(a) Goonaroo is a living animal/creature/organism.\n(b) Goonaroo do/does not belong to any known entities.\n(c) Goonaroo is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n(d) Goonaroo is a kind of geopolitical entity\n(e) Goonaroo is a kind of food.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "At the time of Trua 's birth , Kohana was by Takara 's side and thus acted as the midwife .",
+        "word": "Kohana",
+        "gt": "other-livingthing",
+        "old_pred": "person-other",
+        "rerank_pred": "person-other",
+        "prompt": [
+            "At the time of Trua 's birth , Kohana was by Takara 's side and thus acted as the midwife .\n\n(a) Kohana is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n(b) Kohana is a god in some legend/religious story.\n(c) Kohana is a living animal/creature/organism.\n(d) Kohana do/does not belong to any known entities.\n(e) Kohana is a politician.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "It , however , is preserved in Chinese dialects such as Hokkien and Teochew as the Min Chinese languages are directly descended from Old Chinese rather than Middle Chinese .",
+        "word": "Middle",
+        "gt": "None",
+        "old_pred": "None",
+        "rerank_pred": "other-language",
+        "prompt": [
+            "It , however , is preserved in Chinese dialects such as Hokkien and Teochew as the Min Chinese languages are directly descended from Old Chinese rather than Middle Chinese .\n\n(a) Middle do/does not belong to any known entities.\n(b) Middle is a kind of human language.\n(c) Middle is a scholar.\n(d) Middle is a kind of product that does not fall under the categories of airplane, train, ship, car, weapon, food, game and software.\n(e) Middle is a kind of currency.\n\nAnswer:"
+        ],
+        "raw_res": " (b)"
+    },
+    {
+        "sent": "Some demographic data from 1641 , recorded by the Vicar of Sofia , who was passing through Roman , shows there were apparently 1,500 Eastern Orthodox , 450 Armenian Orthodox and 30 Hungarian Catholics .",
+        "word": "Roman",
+        "gt": "location-GPE",
+        "old_pred": "None",
+        "rerank_pred": "None",
+        "prompt": [
+            "Some demographic data from 1641 , recorded by the Vicar of Sofia , who was passing through Roman , shows there were apparently 1,500 Eastern Orthodox , 450 Armenian Orthodox and 30 Hungarian Catholics .\n\n(a) Roman do/does not belong to any known entities.\n(b) Roman is a kind of geopolitical entity\n(c) Roman is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n(d) Roman is an airport.\n(e) Roman is a kind of currency.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "However , Burns wanted a combat command ; he got his wish that fall , receiving a promotion to Brigadier General of Volunteers in September , and being placed in command of the Philadelphia Brigade in October , after the death of their previous commander at the battle of Ball 's Bluff .",
+        "word": "Brigadier",
+        "gt": "None",
+        "old_pred": "person-soldier",
+        "rerank_pred": "person-soldier",
+        "prompt": [
+            "However , Burns wanted a combat command ; he got his wish that fall , receiving a promotion to Brigadier General of Volunteers in September , and being placed in command of the Philadelphia Brigade in October , after the death of their previous commander at the battle of Ball 's Bluff .\n\n(a) Brigadier is a soldier\n(b) Brigadier do/does not belong to any known entities.\n(c) Brigadier pertains to an organization that does not fall under the categories of company, educational institution, government, media, political party, religion, sports league, sports team, band or musical group.\n(d) Brigadier is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n(e) Brigadier refers to a government or governmental agency\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "However , Burns wanted a combat command ; he got his wish that fall , receiving a promotion to Brigadier General of Volunteers in September , and being placed in command of the Philadelphia Brigade in October , after the death of their previous commander at the battle of Ball 's Bluff .",
+        "word": "Volunteers",
+        "gt": "None",
+        "old_pred": "person-soldier",
+        "rerank_pred": "person-soldier",
+        "prompt": [
+            "However , Burns wanted a combat command ; he got his wish that fall , receiving a promotion to Brigadier General of Volunteers in September , and being placed in command of the Philadelphia Brigade in October , after the death of their previous commander at the battle of Ball 's Bluff .\n\n(a) Volunteers is a soldier\n(b) Volunteers pertains to an organization that does not fall under the categories of company, educational institution, government, media, political party, religion, sports league, sports team, band or musical group.\n(c) Volunteers do/does not belong to any known entities.\n(d) Volunteers is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n(e) Volunteers is a kind of weapon.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "Flavius Rumoridus ( died 5th century AD ) was a Roman soldier who was appointed consul in AD 403 in the Western Roman Empire at the same time as the eastern emperor Theodosius II served in the same capacity in the East .",
+        "word": "Flavius Rumoridus",
+        "gt": "person-soldier",
+        "old_pred": "person-other",
+        "rerank_pred": "person-soldier",
+        "prompt": [
+            "Flavius Rumoridus ( died 5th century AD ) was a Roman soldier who was appointed consul in AD 403 in the Western Roman Empire at the same time as the eastern emperor Theodosius II served in the same capacity in the East .\n\n(a) Flavius Rumoridus is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n(b) Flavius Rumoridus is a politician.\n(c) Flavius Rumoridus is a soldier\n(d) Flavius Rumoridus is a god in some legend/religious story.\n(e) Flavius Rumoridus refers to a government or governmental agency\n(f) Flavius Rumoridus do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (c) Flavius Rumoridus is a soldier"
+    },
+    {
+        "sent": "The unit received the `` Revolutionary Mongolia `` title in 1943 when it was re-equipped with 34 T-34/76 and 21 T-70 tanks , funded the Mongolian People 's Republic of Gonchigiin Bumtsend .",
+        "word": "Revolutionary Mongolia",
+        "gt": "other-award",
+        "old_pred": "organization-other",
+        "rerank_pred": "organization-other",
+        "prompt": [
+            "The unit received the `` Revolutionary Mongolia `` title in 1943 when it was re-equipped with 34 T-34/76 and 21 T-70 tanks , funded the Mongolian People 's Republic of Gonchigiin Bumtsend .\n\n(a) Revolutionary Mongolia pertains to an organization that does not fall under the categories of company, educational institution, government, media, political party, religion, sports league, sports team, band or musical group.\n(b) Revolutionary Mongolia refers to some event except attack, election, natural disaster, protest, revolution and sports\n(c) Revolutionary Mongolia refers to a protest, uprising or revolution event\n(d) Revolutionary Mongolia is an event about attack, battle, war or military conflict.\n(e) Revolutionary Mongolia is a soldier\n(f) Revolutionary Mongolia do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "The unit received the `` Revolutionary Mongolia `` title in 1943 when it was re-equipped with 34 T-34/76 and 21 T-70 tanks , funded the Mongolian People 's Republic of Gonchigiin Bumtsend .",
+        "word": "of",
+        "gt": "None",
+        "old_pred": "None",
+        "rerank_pred": "None",
+        "prompt": [
+            "The unit received the `` Revolutionary Mongolia `` title in 1943 when it was re-equipped with 34 T-34/76 and 21 T-70 tanks , funded the Mongolian People 's Republic of Gonchigiin Bumtsend .\n\n(a) of do/does not belong to any known entities.\n(b) of is a kind of geopolitical entity\n(c) of refers to a government or governmental agency\n(d) of is a sports league\n(e) of pertains to an organization that does not fall under the categories of company, educational institution, government, media, political party, religion, sports league, sports team, band or musical group.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "The OKC-3S is part of a series of weapon improvements begun in 2001 by Commandant of the Marine Corps James L. Jones to expand and toughen hand-to-hand combat training for Marines , including training in the Marine Corps Martial Arts Program and knife fighting .",
+        "word": "Commandant",
+        "gt": "None",
+        "old_pred": "organization-other",
+        "rerank_pred": "organization-other",
+        "prompt": [
+            "The OKC-3S is part of a series of weapon improvements begun in 2001 by Commandant of the Marine Corps James L. Jones to expand and toughen hand-to-hand combat training for Marines , including training in the Marine Corps Martial Arts Program and knife fighting .\n\n(a) Commandant pertains to an organization that does not fall under the categories of company, educational institution, government, media, political party, religion, sports league, sports team, band or musical group.\n(b) Commandant do/does not belong to any known entities.\n(c) Commandant refers to a government or governmental agency\n(d) Commandant is a soldier\n(e) Commandant is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "The OKC-3S is part of a series of weapon improvements begun in 2001 by Commandant of the Marine Corps James L. Jones to expand and toughen hand-to-hand combat training for Marines , including training in the Marine Corps Martial Arts Program and knife fighting .",
+        "word": "Marine Corps Martial Arts",
+        "gt": "None",
+        "old_pred": "organization-education",
+        "rerank_pred": "None",
+        "prompt": [
+            "The OKC-3S is part of a series of weapon improvements begun in 2001 by Commandant of the Marine Corps James L. Jones to expand and toughen hand-to-hand combat training for Marines , including training in the Marine Corps Martial Arts Program and knife fighting .\n\n(a) Marine Corps Martial Arts is an educational institute/organization.\n(b) Marine Corps Martial Arts is a kind of educational degree.\n(c) Marine Corps Martial Arts pertains to an organization that does not fall under the categories of company, educational institution, government, media, political party, religion, sports league, sports team, band or musical group.\n(d) Marine Corps Martial Arts is a soldier\n(e) Marine Corps Martial Arts do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (e)"
+    },
+    {
+        "sent": "The OKC-3S is part of a series of weapon improvements begun in 2001 by Commandant of the Marine Corps James L. Jones to expand and toughen hand-to-hand combat training for Marines , including training in the Marine Corps Martial Arts Program and knife fighting .",
+        "word": "Program",
+        "gt": "None",
+        "old_pred": "None",
+        "rerank_pred": "organization-other",
+        "prompt": [
+            "The OKC-3S is part of a series of weapon improvements begun in 2001 by Commandant of the Marine Corps James L. Jones to expand and toughen hand-to-hand combat training for Marines , including training in the Marine Corps Martial Arts Program and knife fighting .\n\n(a) Program do/does not belong to any known entities.\n(b) Program is an educational institute/organization.\n(c) Program is a kind of educational degree.\n(d) Program pertains to an organization that does not fall under the categories of company, educational institution, government, media, political party, religion, sports league, sports team, band or musical group.\n(e) Program is a sports league\n\nAnswer:"
+        ],
+        "raw_res": " (d)"
+    },
+    {
+        "sent": "According to it , King Eleusis and Cothonea ( Cyntinia ) , parents of Triptolemus , are visited by Demeter , who rears their son , feeding him divine milk by day and placing him into the fire at night , which makes Triptolemus grow faster than mortal children normally do .",
+        "word": "Triptolemus",
+        "gt": "other-god",
+        "old_pred": "person-other",
+        "rerank_pred": "other-god",
+        "prompt": [
+            "According to it , King Eleusis and Cothonea ( Cyntinia ) , parents of Triptolemus , are visited by Demeter , who rears their son , feeding him divine milk by day and placing him into the fire at night , which makes Triptolemus grow faster than mortal children normally do .\n\n(a) Triptolemus is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n(b) Triptolemus do/does not belong to any known entities.\n(c) Triptolemus is a god in some legend/religious story.\n(d) Triptolemus is a living animal/creature/organism.\n(e) Triptolemus is a special term about biology / life science.\n\nAnswer:"
+        ],
+        "raw_res": " (c)"
+    },
+    {
+        "sent": "Possibly due in part to publicity from Ms . Henry 's books and the movie , most of Assateague Island was protected from development by the enactment of Federal legislation designating it as Assateague Island National Seashore in 1965 , under the administration of the National Park Service .",
+        "word": "Henry",
+        "gt": "person-artist/author",
+        "old_pred": "None",
+        "rerank_pred": "person-artist/author",
+        "prompt": [
+            "Possibly due in part to publicity from Ms . Henry 's books and the movie , most of Assateague Island was protected from development by the enactment of Federal legislation designating it as Assateague Island National Seashore in 1965 , under the administration of the National Park Service .\n\n(a) Henry do/does not belong to any known entities.\n(b) Henry is an artist or author.\n(c) Henry is a director.\n(d) Henry is a kind of writtenart.\n(e) Henry is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n\nAnswer:"
+        ],
+        "raw_res": " (b)"
+    },
+    {
+        "sent": "Yacht `` Am\u00e9lia may refer to one of several yachts owned by King Carlos I of Portugal :",
+        "word": "of",
+        "gt": "None",
+        "old_pred": "None",
+        "rerank_pred": "None",
+        "prompt": [
+            "Yacht `` Am\u00e9lia may refer to one of several yachts owned by King Carlos I of Portugal :\n\n(a) of do/does not belong to any known entities.\n(b) of is a kind of geopolitical entity\n(c) of is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n(d) of is a politician.\n(e) of refers to a government or governmental agency\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "Bowen Field House is used by Eastern Michigan Eagles track and field , Eastern Michigan Eagles wrestling , and Eastern Michigan Eagles gymnastics .",
+        "word": "Eastern Michigan Eagles track",
+        "gt": "None",
+        "old_pred": "building-sportsfacility",
+        "rerank_pred": "building-sportsfacility",
+        "prompt": [
+            "Bowen Field House is used by Eastern Michigan Eagles track and field , Eastern Michigan Eagles wrestling , and Eastern Michigan Eagles gymnastics .\n\n(a) Eastern Michigan Eagles track is a sports facility building.\n(b) Eastern Michigan Eagles track is a sports team\n(c) Eastern Michigan Eagles track is an athlete.\n(d) Eastern Michigan Eagles track refers to some event related to sports.\n(e) Eastern Michigan Eagles track is a natural disaster event.\n(f) Eastern Michigan Eagles track do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "On 8 January 1996 , an Air Africa Antonov An-32 aircraft ( RA-26222 ) which had been wet-leased by Moscow Airways to Scibe Airlift crashed into a market shortly after taking off from N'Dolo Airport in Kinshasa , capital of the Democratic Republic of the Congo , killing approximately 300 people ( `` see 1 996 Air Africa crash `` ) .",
+        "word": "996",
+        "gt": "None",
+        "old_pred": "product-airplane",
+        "rerank_pred": "None",
+        "prompt": [
+            "On 8 January 1996 , an Air Africa Antonov An-32 aircraft ( RA-26222 ) which had been wet-leased by Moscow Airways to Scibe Airlift crashed into a market shortly after taking off from N'Dolo Airport in Kinshasa , capital of the Democratic Republic of the Congo , killing approximately 300 people ( `` see 1 996 Air Africa crash `` ) .\n\n(a) 996 is kind of airplane product.\n(b) 996 is a natural disaster event.\n(c) 996 is a special term about astronomy.\n(d) 996 is a ship.\n(e) 996 is an event about attack, battle, war or military conflict.\n(f) 996 do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (f)"
+    },
+    {
+        "sent": "With the win , not only did the Jets improve their overall record to 10\u20137 , but rookie quarterback Mark Sanchez and rookie head coach Rex Ryan picked up their first postseason win .",
+        "word": "Mark Sanchez",
+        "gt": "person-athlete",
+        "old_pred": "person-athlete",
+        "rerank_pred": "person-athlete",
+        "prompt": [
+            "With the win , not only did the Jets improve their overall record to 10\u20137 , but rookie quarterback Mark Sanchez and rookie head coach Rex Ryan picked up their first postseason win .\n\n(a) Mark Sanchez is an athlete.\n(b) Mark Sanchez is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n(c) Mark Sanchez is a sports team\n(d) Mark Sanchez is a soldier\n(e) Mark Sanchez is an artist or author.\n(f) Mark Sanchez do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "Only three GWR saddle tank locomotives survived into nationalisation .",
+        "word": "GWR",
+        "gt": "None",
+        "old_pred": "product-train",
+        "rerank_pred": "organization-company",
+        "prompt": [
+            "Only three GWR saddle tank locomotives survived into nationalisation .\n\n(a) GWR is a kind of train(vehicle).\n(b) GWR is a company\n(c) GWR do/does not belong to any known entities.\n(d) GWR is a geographic position about roadways, railways, highways or public transit systems.\n(e) GWR is a kind of geopolitical entity\n\nAnswer:"
+        ],
+        "raw_res": " (b)"
+    },
+    {
+        "sent": "On Travel Channel 's `` Chowdown Countdown `` , Louis ' Lunch was rated # 1 .",
+        "word": "Louis ' Lunch",
+        "gt": "building-restaurant",
+        "old_pred": "building-restaurant",
+        "rerank_pred": "building-restaurant",
+        "prompt": [
+            "On Travel Channel 's `` Chowdown Countdown `` , Louis ' Lunch was rated # 1 .\n\n(a) Louis ' Lunch is a restaurant.\n(b) Louis ' Lunch is a kind of food.\n(c) Louis ' Lunch is a broadcast program.\n(d) Louis ' Lunch is a kind of writtenart.\n(e) Louis ' Lunch is a work of art, but not belong to the categories of music, film, written art, broadcast or painting.\n(f) Louis ' Lunch do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "Stetson has served as an environmental policy advisor to numerous political campaigns , including the Presidential campaigns of Senator Gary Hart ( D-CO ) , Representative Richard Gephardt ( D-MO ) , Governor Howard Dean ( D-VT ) , Senator John Kerry ( D-MA ) , and Governor Bill Clinton ( D-AR ) .",
+        "word": "Stetson",
+        "gt": "None",
+        "old_pred": "other-livingthing",
+        "rerank_pred": "person-scholar",
+        "prompt": [
+            "Stetson has served as an environmental policy advisor to numerous political campaigns , including the Presidential campaigns of Senator Gary Hart ( D-CO ) , Representative Richard Gephardt ( D-MO ) , Governor Howard Dean ( D-VT ) , Senator John Kerry ( D-MA ) , and Governor Bill Clinton ( D-AR ) .\n\n(a) Stetson is a living animal/creature/organism.\n(b) Stetson is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n(c) Stetson is geographic position about mountain.\n(d) Stetson do/does not belong to any known entities.\n(e) Stetson is a scholar.\n\nAnswer:"
+        ],
+        "raw_res": " (e)"
+    },
+    {
+        "sent": "Stetson has served as an environmental policy advisor to numerous political campaigns , including the Presidential campaigns of Senator Gary Hart ( D-CO ) , Representative Richard Gephardt ( D-MO ) , Governor Howard Dean ( D-VT ) , Senator John Kerry ( D-MA ) , and Governor Bill Clinton ( D-AR ) .",
+        "word": "Presidential",
+        "gt": "None",
+        "old_pred": "None",
+        "rerank_pred": "None",
+        "prompt": [
+            "Stetson has served as an environmental policy advisor to numerous political campaigns , including the Presidential campaigns of Senator Gary Hart ( D-CO ) , Representative Richard Gephardt ( D-MO ) , Governor Howard Dean ( D-VT ) , Senator John Kerry ( D-MA ) , and Governor Bill Clinton ( D-AR ) .\n\n(a) Presidential do/does not belong to any known entities.\n(b) Presidential is an event about election.\n(c) Presidential is a politician.\n(d) Presidential refers to some event related to sports.\n(e) Presidential refers to some event except attack, election, natural disaster, protest, revolution and sports\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "Author and sound engineer Bob McCarthy wrote in 2007 that because of Smaart 's widespread acceptance at all levels of live sound mixing , the paradigm has reversed from the 1980s one of surprise at finding scientific tools in the concert sound scene to one of surprise if the observer finds that such tools are `` not '' being used to tune a sound system .",
+        "word": "Smaart",
+        "gt": "product-software",
+        "old_pred": "person-artist/author",
+        "rerank_pred": "product-software",
+        "prompt": [
+            "Author and sound engineer Bob McCarthy wrote in 2007 that because of Smaart 's widespread acceptance at all levels of live sound mixing , the paradigm has reversed from the 1980s one of surprise at finding scientific tools in the concert sound scene to one of surprise if the observer finds that such tools are `` not '' being used to tune a sound system .\n\n(a) Smaart is an artist or author.\n(b) Smaart is a director.\n(c) Smaart do/does not belong to any known entities.\n(d) Smaart is a kind of product that does not fall under the categories of airplane, train, ship, car, weapon, food, game and software.\n(e) Smaart is a software product.\n\nAnswer:"
+        ],
+        "raw_res": " (e)"
+    },
+    {
+        "sent": "John McCaa ( born in Rantoul , Illinois ) is a news anchor who is known for working for WFAA-TV in Dallas , Texas .",
+        "word": "John McCaa",
+        "gt": "person-artist/author",
+        "old_pred": "organization-media/newspaper",
+        "rerank_pred": "person-other",
+        "prompt": [
+            "John McCaa ( born in Rantoul , Illinois ) is a news anchor who is known for working for WFAA-TV in Dallas , Texas .\n\n(a) John McCaa is a media/newspaper organization.\n(b) John McCaa is a broadcast program.\n(c) John McCaa is a director.\n(d) John McCaa is an actor.\n(e) John McCaa is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n(f) John McCaa do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (e)"
+    },
+    {
+        "sent": "The prefecture was called Yuyao Commandery from 742 to 758 .",
+        "word": "Yuyao Commandery",
+        "gt": "location-GPE",
+        "old_pred": "location-GPE",
+        "rerank_pred": "location-GPE",
+        "prompt": [
+            "The prefecture was called Yuyao Commandery from 742 to 758 .\n\n(a) Yuyao Commandery is a kind of geopolitical entity\n(b) Yuyao Commandery refers to a government or governmental agency\n(c) Yuyao Commandery is a geographic locaton that does not fall under the categories of geopolitical entity, body of water, island, mountain, park, road, railway and transit.\n(d) Yuyao Commandery is a kind of building that does not fall under the categories of airport, hospital, hotel, library, restaurant, sports facility and theater\n(e) Yuyao Commandery do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "Fourteen years later , one specimen was found in the Comoros , but the fish was no stranger to the locals ; in the port of Domoni on the Comoran island of Anjouan , the Comorians were puzzled to be so rewarded for a `` gombessa `` or `` mame `` , their names for the nearly inedible fish that their fishermen occasionally caught by mistake .",
+        "word": "gombessa",
+        "gt": "other-livingthing",
+        "old_pred": "None",
+        "rerank_pred": "None",
+        "prompt": [
+            "Fourteen years later , one specimen was found in the Comoros , but the fish was no stranger to the locals ; in the port of Domoni on the Comoran island of Anjouan , the Comorians were puzzled to be so rewarded for a `` gombessa `` or `` mame `` , their names for the nearly inedible fish that their fishermen occasionally caught by mistake .\n\n(a) gombessa do/does not belong to any known entities.\n(b) gombessa is a kind of food.\n(c) gombessa is a living animal/creature/organism.\n(d) gombessa is a kind of geopolitical entity\n(e) gombessa is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "He was educated at Bury grammar school , but left it at the age of 15 to take a post as usher in a school at Linton , Cambridgeshire .",
+        "word": "Linton",
+        "gt": "location-GPE",
+        "old_pred": "location-GPE",
+        "rerank_pred": "organization-education",
+        "prompt": [
+            "He was educated at Bury grammar school , but left it at the age of 15 to take a post as usher in a school at Linton , Cambridgeshire .\n\n(a) Linton is a kind of geopolitical entity\n(b) Linton is an educational institute/organization.\n(c) Linton is an airport.\n(d) Linton is geographic position about mountain.\n(e) Linton do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (b)"
+    },
+    {
+        "sent": "He spent two hours traveling on subway and bus each way to and from Columbia , learning about Markov chains and number theory in the morning and working on the IBM 650 computer in the afternoon .",
+        "word": "Markov",
+        "gt": "None",
+        "old_pred": "None",
+        "rerank_pred": "None",
+        "prompt": [
+            "He spent two hours traveling on subway and bus each way to and from Columbia , learning about Markov chains and number theory in the morning and working on the IBM 650 computer in the afternoon .\n\n(a) Markov do/does not belong to any known entities.\n(b) Markov is a special term about biology / life science.\n(c) Markov is a scholar.\n(d) Markov is a special term about astronomy.\n(e) Markov is a kind of product that does not fall under the categories of airplane, train, ship, car, weapon, food, game and software.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "The main livestock animals in Panchmahal are buffaloes , particularly of the Mehsani and Surati breeds , cattle , and goats .",
+        "word": "Panchmahal",
+        "gt": "location-GPE",
+        "old_pred": "location-GPE",
+        "rerank_pred": "location-GPE",
+        "prompt": [
+            "The main livestock animals in Panchmahal are buffaloes , particularly of the Mehsani and Surati breeds , cattle , and goats .\n\n(a) Panchmahal is a kind of geopolitical entity\n(b) Panchmahal is a geographic locaton that does not fall under the categories of geopolitical entity, body of water, island, mountain, park, road, railway and transit.\n(c) Panchmahal is an airport.\n(d) Panchmahal refers to some event except attack, election, natural disaster, protest, revolution and sports\n(e) Panchmahal refers to a government or governmental agency\n(f) Panchmahal do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "The main livestock animals in Panchmahal are buffaloes , particularly of the Mehsani and Surati breeds , cattle , and goats .",
+        "word": "Surati",
+        "gt": "other-livingthing",
+        "old_pred": "other-livingthing",
+        "rerank_pred": "person-other",
+        "prompt": [
+            "The main livestock animals in Panchmahal are buffaloes , particularly of the Mehsani and Surati breeds , cattle , and goats .\n\n(a) Surati is a living animal/creature/organism.\n(b) Surati do/does not belong to any known entities.\n(c) Surati is a kind of food.\n(d) Surati is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n(e) Surati is a kind of car\n\nAnswer:"
+        ],
+        "raw_res": " (d)"
+    },
+    {
+        "sent": "In 1987 , the riding was divided between Burnaby \u2014 Kingsway , Vancouver East , Vancouver Quadra and Vancouver South ridings .",
+        "word": "Vancouver East",
+        "gt": "location-GPE",
+        "old_pred": "event-election",
+        "rerank_pred": "location-GPE",
+        "prompt": [
+            "In 1987 , the riding was divided between Burnaby \u2014 Kingsway , Vancouver East , Vancouver Quadra and Vancouver South ridings .\n\n(a) Vancouver East is an event about election.\n(b) Vancouver East is a kind of geopolitical entity\n(c) Vancouver East is a geographic position about roadways, railways, highways or public transit systems.\n(d) Vancouver East refers to a government or governmental agency\n(e) Vancouver East is a political party/organization.\n(f) Vancouver East do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (b)"
+    },
+    {
+        "sent": "In 1987 , the riding was divided between Burnaby \u2014 Kingsway , Vancouver East , Vancouver Quadra and Vancouver South ridings .",
+        "word": "Vancouver Quadra",
+        "gt": "location-GPE",
+        "old_pred": "event-election",
+        "rerank_pred": "location-GPE",
+        "prompt": [
+            "In 1987 , the riding was divided between Burnaby \u2014 Kingsway , Vancouver East , Vancouver Quadra and Vancouver South ridings .\n\n(a) Vancouver Quadra is an event about election.\n(b) Vancouver Quadra is a kind of geopolitical entity\n(c) Vancouver Quadra is a geographic position about roadways, railways, highways or public transit systems.\n(d) Vancouver Quadra refers to a government or governmental agency\n(e) Vancouver Quadra is a political party/organization.\n(f) Vancouver Quadra do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (b)"
+    },
+    {
+        "sent": "In 1987 , the riding was divided between Burnaby \u2014 Kingsway , Vancouver East , Vancouver Quadra and Vancouver South ridings .",
+        "word": "Vancouver South",
+        "gt": "location-GPE",
+        "old_pred": "event-election",
+        "rerank_pred": "location-GPE",
+        "prompt": [
+            "In 1987 , the riding was divided between Burnaby \u2014 Kingsway , Vancouver East , Vancouver Quadra and Vancouver South ridings .\n\n(a) Vancouver South is an event about election.\n(b) Vancouver South is a kind of geopolitical entity\n(c) Vancouver South is a geographic position about roadways, railways, highways or public transit systems.\n(d) Vancouver South refers to a government or governmental agency\n(e) Vancouver South is a political party/organization.\n(f) Vancouver South do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (b)"
+    },
+    {
+        "sent": "One of the most influential figures in Syrian and Druze history , he played a major role in deciding the destiny of Jabal al-Druze and of Syria in general .",
+        "word": "Jabal al-Druze",
+        "gt": "person-other",
+        "old_pred": "location-GPE",
+        "rerank_pred": "location-GPE",
+        "prompt": [
+            "One of the most influential figures in Syrian and Druze history , he played a major role in deciding the destiny of Jabal al-Druze and of Syria in general .\n\n(a) Jabal al-Druze is a kind of geopolitical entity\n(b) Jabal al-Druze is a geographic locaton that does not fall under the categories of geopolitical entity, body of water, island, mountain, park, road, railway and transit.\n(c) Jabal al-Druze is a kind of building that does not fall under the categories of airport, hospital, hotel, library, restaurant, sports facility and theater\n(d) Jabal al-Druze do/does not belong to any known entities.\n(e) Jabal al-Druze is an airport.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "Most of the ruling family , ministers and business investors live in West Riffa .",
+        "word": "Riffa",
+        "gt": "None",
+        "old_pred": "location-other",
+        "rerank_pred": "location-GPE",
+        "prompt": [
+            "Most of the ruling family , ministers and business investors live in West Riffa .\n\n(a) Riffa is a geographic locaton that does not fall under the categories of geopolitical entity, body of water, island, mountain, park, road, railway and transit.\n(b) Riffa do/does not belong to any known entities.\n(c) Riffa is a kind of building that does not fall under the categories of airport, hospital, hotel, library, restaurant, sports facility and theater\n(d) Riffa is a kind of geopolitical entity\n(e) Riffa is an airport.\n\nAnswer:"
+        ],
+        "raw_res": " (d)"
+    },
+    {
+        "sent": "The Great Hyperspace War was instigated when two Republic hyperspace explorers accidentally crash-landed on the Sith graveyard planet Korriban during the funeral procession of Marka Ragnos .",
+        "word": "Republic",
+        "gt": "organization-government/governmentagency",
+        "old_pred": "organization-other",
+        "rerank_pred": "organization-other",
+        "prompt": [
+            "The Great Hyperspace War was instigated when two Republic hyperspace explorers accidentally crash-landed on the Sith graveyard planet Korriban during the funeral procession of Marka Ragnos .\n\n(a) Republic pertains to an organization that does not fall under the categories of company, educational institution, government, media, political party, religion, sports league, sports team, band or musical group.\n(b) Republic do/does not belong to any known entities.\n(c) Republic is a political party/organization.\n(d) Republic is a kind of geopolitical entity\n(e) Republic is a politician.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "The Great Hyperspace War was instigated when two Republic hyperspace explorers accidentally crash-landed on the Sith graveyard planet Korriban during the funeral procession of Marka Ragnos .",
+        "word": "Korriban",
+        "gt": "other-astronomything",
+        "old_pred": "location-other",
+        "rerank_pred": "location-other",
+        "prompt": [
+            "The Great Hyperspace War was instigated when two Republic hyperspace explorers accidentally crash-landed on the Sith graveyard planet Korriban during the funeral procession of Marka Ragnos .\n\n(a) Korriban is a geographic locaton that does not fall under the categories of geopolitical entity, body of water, island, mountain, park, road, railway and transit.\n(b) Korriban is a kind of geopolitical entity\n(c) Korriban is geographic position about island.\n(d) Korriban is geographic position about mountain.\n(e) Korriban is a god in some legend/religious story.\n(f) Korriban do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "The Great Hyperspace War was instigated when two Republic hyperspace explorers accidentally crash-landed on the Sith graveyard planet Korriban during the funeral procession of Marka Ragnos .",
+        "word": "Marka Ragnos",
+        "gt": "person-politician",
+        "old_pred": "person-soldier",
+        "rerank_pred": "None",
+        "prompt": [
+            "The Great Hyperspace War was instigated when two Republic hyperspace explorers accidentally crash-landed on the Sith graveyard planet Korriban during the funeral procession of Marka Ragnos .\n\n(a) Marka Ragnos is a soldier\n(b) Marka Ragnos is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n(c) Marka Ragnos is a god in some legend/religious story.\n(d) Marka Ragnos is a politician.\n(e) Marka Ragnos is a scholar.\n(f) Marka Ragnos do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (f)"
+    },
+    {
+        "sent": "KTV Ltd . operates Radio Nova , a rebroadcast service for BBC World Service , BBC World News , and Saint FM in association with the stations on FM , MW and DVB-T ( Digital Terrestrial ) .",
+        "word": "Terrestrial",
+        "gt": "None",
+        "old_pred": "None",
+        "rerank_pred": "organization-media/newspaper",
+        "prompt": [
+            "KTV Ltd . operates Radio Nova , a rebroadcast service for BBC World Service , BBC World News , and Saint FM in association with the stations on FM , MW and DVB-T ( Digital Terrestrial ) .\n\n(a) Terrestrial do/does not belong to any known entities.\n(b) Terrestrial is a media/newspaper organization.\n(c) Terrestrial is a kind of product that does not fall under the categories of airplane, train, ship, car, weapon, food, game and software.\n(d) Terrestrial is a kind of currency.\n(e) Terrestrial is a political party/organization.\n\nAnswer:"
+        ],
+        "raw_res": " (b)"
+    },
+    {
+        "sent": ", Ford has produced for retail sales the following hybrid electric vehicles : Ford Escape Hybrid ( 2004\u20132012 ) , Mercury Mariner Hybrid ( 2005\u20132010 ) , Mercury Milan Hybrid ( 2009\u20132010 ) , Ford Fusion Hybrid ( 2009\u2013present ) , Lincoln MKZ Hybrid ( 2010\u2013present ) , Ford C-Max Hybrid ( 2012\u2013present ) , and Ford Mondeo Hybrid ( 2014\u2013present ) .",
+        "word": "Ford",
+        "gt": "organization-company",
+        "old_pred": "organization-company",
+        "rerank_pred": "product-car",
+        "prompt": [
+            ", Ford has produced for retail sales the following hybrid electric vehicles : Ford Escape Hybrid ( 2004\u20132012 ) , Mercury Mariner Hybrid ( 2005\u20132010 ) , Mercury Milan Hybrid ( 2009\u20132010 ) , Ford Fusion Hybrid ( 2009\u2013present ) , Lincoln MKZ Hybrid ( 2010\u2013present ) , Ford C-Max Hybrid ( 2012\u2013present ) , and Ford Mondeo Hybrid ( 2014\u2013present ) .\n\n(a) Ford is a company\n(b) Ford is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n(c) Ford is a kind of geopolitical entity\n(d) Ford is a kind of car\n(e) Ford is a software product.\n(f) Ford do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (d)"
+    },
+    {
+        "sent": "Developed by Dreams , it was released in Japan on November 24 , 2005 by Taito as Bubble Bobble DS , in Europe on December 2 , 2005 by Rising Star Games and Atari and in North America on October 3 , 2006 by Codemasters .",
+        "word": "Dreams",
+        "gt": "organization-company",
+        "old_pred": "None",
+        "rerank_pred": "organization-company",
+        "prompt": [
+            "Developed by Dreams , it was released in Japan on November 24 , 2005 by Taito as Bubble Bobble DS , in Europe on December 2 , 2005 by Rising Star Games and Atari and in North America on October 3 , 2006 by Codemasters .\n\n(a) Dreams do/does not belong to any known entities.\n(b) Dreams is a company\n(c) Dreams is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n(d) Dreams is a director.\n(e) Dreams is a game product.\n\nAnswer:"
+        ],
+        "raw_res": " (b)"
+    },
+    {
+        "sent": "In the first chapter `` What is Orthodox Marxism ?",
+        "word": "What is Orthodox Marxism ?",
+        "gt": "None",
+        "old_pred": "organization-religion",
+        "rerank_pred": "None",
+        "prompt": [
+            "In the first chapter `` What is Orthodox Marxism ?\n\n(a) What is Orthodox Marxism ? is a religious organization.\n(b) What is Orthodox Marxism ? is a scholar.\n(c) What is Orthodox Marxism ? is a kind of writtenart.\n(d) What is Orthodox Marxism ? is a kind of human language.\n(e) What is Orthodox Marxism ? refers to a protest, uprising or revolution event\n(f) What is Orthodox Marxism ? do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (f)"
+    },
+    {
+        "sent": "His grandsons , Steven Kaler and Avinash Chander , are , respectively , an MLA from Phillaur and chief parliamentary secretary for Higher Education & amp ; Languages Dept .",
+        "word": "Steven",
+        "gt": "None",
+        "old_pred": "person-other",
+        "rerank_pred": "person-politician",
+        "prompt": [
+            "His grandsons , Steven Kaler and Avinash Chander , are , respectively , an MLA from Phillaur and chief parliamentary secretary for Higher Education & amp ; Languages Dept .\n\n(a) Steven is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n(b) Steven is a politician.\n(c) Steven refers to a government or governmental agency\n(d) Steven is a soldier\n(e) Steven is a software product.\n(f) Steven do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (b)"
+    },
+    {
+        "sent": "His grandsons , Steven Kaler and Avinash Chander , are , respectively , an MLA from Phillaur and chief parliamentary secretary for Higher Education & amp ; Languages Dept .",
+        "word": "Kaler",
+        "gt": "None",
+        "old_pred": "person-politician",
+        "rerank_pred": "person-other",
+        "prompt": [
+            "His grandsons , Steven Kaler and Avinash Chander , are , respectively , an MLA from Phillaur and chief parliamentary secretary for Higher Education & amp ; Languages Dept .\n\n(a) Kaler is a politician.\n(b) Kaler is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n(c) Kaler refers to a government or governmental agency\n(d) Kaler is a software product.\n(e) Kaler is a soldier\n(f) Kaler do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (b)"
+    },
+    {
+        "sent": "There is also reference to these attempts in copies of his personal letters now deposited in a Wilfrid Israel archive in the Wiener Library London ( the main source of Holocaust records in the UK , where the records of the Council for German Jewry are also to be found ) .",
+        "word": "Holocaust",
+        "gt": "None",
+        "old_pred": "event-disaster",
+        "rerank_pred": "event-disaster",
+        "prompt": [
+            "There is also reference to these attempts in copies of his personal letters now deposited in a Wilfrid Israel archive in the Wiener Library London ( the main source of Holocaust records in the UK , where the records of the Council for German Jewry are also to be found ) .\n\n(a) Holocaust is a natural disaster event.\n(b) Holocaust refers to some event except attack, election, natural disaster, protest, revolution and sports\n(c) Holocaust is an event about attack, battle, war or military conflict.\n(d) Holocaust do/does not belong to any known entities.\n(e) Holocaust is a kind of geopolitical entity\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "Alexander Nasmyth was commissioned to design the bridge sometime between 1806 and 1810 , most likely following the success of a bridge he had designed in 1808 for the Earl of Selkirk on the River Dee , at Tongueland near Kirkcudbright .",
+        "word": "Alexander Nasmyth",
+        "gt": "person-other",
+        "old_pred": "person-other",
+        "rerank_pred": "person-artist/author",
+        "prompt": [
+            "Alexander Nasmyth was commissioned to design the bridge sometime between 1806 and 1810 , most likely following the success of a bridge he had designed in 1808 for the Earl of Selkirk on the River Dee , at Tongueland near Kirkcudbright .\n\n(a) Alexander Nasmyth is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n(b) Alexander Nasmyth is an artist or author.\n(c) Alexander Nasmyth is a director.\n(d) Alexander Nasmyth is a scholar.\n(e) Alexander Nasmyth is a company\n(f) Alexander Nasmyth do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (b)"
+    },
+    {
+        "sent": "In 1921 , Maurice Crowther Hall ingested carbon tetrachloride to test its safety with a view to its possible use as a treatment for hookworm .",
+        "word": "hookworm",
+        "gt": "None",
+        "old_pred": "other-disease",
+        "rerank_pred": "other-disease",
+        "prompt": [
+            "In 1921 , Maurice Crowther Hall ingested carbon tetrachloride to test its safety with a view to its possible use as a treatment for hookworm .\n\n(a) hookworm is a kind of disease.\n(b) hookworm refers to some kind of medicine.entity\n(c) hookworm is a special term about biology / life science.\n(d) hookworm is a living animal/creature/organism.\n(e) hookworm do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "The film depicts the Apostle Peter leading the infant Church in its struggle to survive following the ascension of Jesus Christ .",
+        "word": "Peter",
+        "gt": "person-other",
+        "old_pred": "organization-religion",
+        "rerank_pred": "person-other",
+        "prompt": [
+            "The film depicts the Apostle Peter leading the infant Church in its struggle to survive following the ascension of Jesus Christ .\n\n(a) Peter is a religious organization.\n(b) Peter is a god in some legend/religious story.\n(c) Peter is a scholar.\n(d) Peter is a politician.\n(e) Peter is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n(f) Peter do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (e)"
+    },
+    {
+        "sent": "In 1158 , Absalon was elected bishop of Roskilde , and King Valdemar made him his chief advisor .",
+        "word": "Absalon",
+        "gt": "person-other",
+        "old_pred": "person-politician",
+        "rerank_pred": "person-other",
+        "prompt": [
+            "In 1158 , Absalon was elected bishop of Roskilde , and King Valdemar made him his chief advisor .\n\n(a) Absalon is a politician.\n(b) Absalon is a god in some legend/religious story.\n(c) Absalon is a scholar.\n(d) Absalon is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n(e) Absalon is a religious organization.\n(f) Absalon do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (d)"
+    },
+    {
+        "sent": "Coop modifies Megas and replaces his head , the control center , with a classic muscle car , and names him XLR ( `` eXtra Large Robot '' ) .",
+        "word": "eXtra Large Robot ''",
+        "gt": "None",
+        "old_pred": "product-other",
+        "rerank_pred": "product-other",
+        "prompt": [
+            "Coop modifies Megas and replaces his head , the control center , with a classic muscle car , and names him XLR ( `` eXtra Large Robot '' ) .\n\n(a) eXtra Large Robot '' is a kind of product that does not fall under the categories of airplane, train, ship, car, weapon, food, game and software.\n(b) eXtra Large Robot '' do/does not belong to any known entities.\n(c) eXtra Large Robot '' is a software product.\n(d) eXtra Large Robot '' is a kind of train(vehicle).\n(e) eXtra Large Robot '' is a company\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "In May 2012 his contract with AC Omonia end , so Kaseke was free to find his new team .",
+        "word": "Kaseke",
+        "gt": "person-athlete",
+        "old_pred": "person-athlete",
+        "rerank_pred": "person-athlete",
+        "prompt": [
+            "In May 2012 his contract with AC Omonia end , so Kaseke was free to find his new team .\n\n(a) Kaseke is an athlete.\n(b) Kaseke is a person, but not affiliated with following professions: actor, artist, author, director, politician, scholar, soldier.\n(c) Kaseke is a sports team\n(d) Kaseke is a soldier\n(e) Kaseke is a sports facility building.\n(f) Kaseke do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "`` Get Rich Click `` was in the top ten of the lists of bestselling books compiled by USA Today , `` The Wall Street Journal `` and `` The New York Times `` .",
+        "word": "The New York Times",
+        "gt": "None",
+        "old_pred": "organization-media/newspaper",
+        "rerank_pred": "organization-media/newspaper",
+        "prompt": [
+            "`` Get Rich Click `` was in the top ten of the lists of bestselling books compiled by USA Today , `` The Wall Street Journal `` and `` The New York Times `` .\n\n(a) The New York Times is a media/newspaper organization.\n(b) The New York Times is a kind of writtenart.\n(c) The New York Times is a library.\n(d) The New York Times is a software product.\n(e) The New York Times is a broadcast program.\n(f) The New York Times do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "The Norcroft compiler can be used to produce modules , as well as compiling parts of the operating system itself .",
+        "word": "Norcroft",
+        "gt": "None",
+        "old_pred": "product-software",
+        "rerank_pred": "product-software",
+        "prompt": [
+            "The Norcroft compiler can be used to produce modules , as well as compiling parts of the operating system itself .\n\n(a) Norcroft is a software product.\n(b) Norcroft do/does not belong to any known entities.\n(c) Norcroft is a kind of product that does not fall under the categories of airplane, train, ship, car, weapon, food, game and software.\n(d) Norcroft is a company\n(e) Norcroft is a special term about biology / life science.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "The Hispanic Voter Project was a founding member of the 1-866-MY-VOTE1 voter alert line in 2004 with the Fels Institute for Government at the University of Pennsylvania , Common Cause , the Reform Institute and the National Constitution Center in Philadelphia , Pennsylvania .",
+        "word": "1-866-MY-VOTE1",
+        "gt": "organization-other",
+        "old_pred": "None",
+        "rerank_pred": "product-other",
+        "prompt": [
+            "The Hispanic Voter Project was a founding member of the 1-866-MY-VOTE1 voter alert line in 2004 with the Fels Institute for Government at the University of Pennsylvania , Common Cause , the Reform Institute and the National Constitution Center in Philadelphia , Pennsylvania .\n\n(a) 1-866-MY-VOTE1 do/does not belong to any known entities.\n(b) 1-866-MY-VOTE1 is a media/newspaper organization.\n(c) 1-866-MY-VOTE1 is a software product.\n(d) 1-866-MY-VOTE1 is a kind of product that does not fall under the categories of airplane, train, ship, car, weapon, food, game and software.\n(e) 1-866-MY-VOTE1 is an event about election.\n\nAnswer:"
+        ],
+        "raw_res": " (d)"
+    },
+    {
+        "sent": "The `` \u017bydowska Organizacja Bojowa '' ( `` \u017bOB `` ) , Polish for the Jewish Combat Organization ; called in Yiddish \u05d9\u05d9\u05d3\u05d9\u05e9\u05e2 \u05e7\u05d0\u05de\u05e3 \u05d0\u05e8\u05d2\u05d0\u05e0\u05d9\u05d6\u05d0\u05e6\u05d9\u05e2 ) \u2013 a World War II resistance movement , which was instrumental in engineering the Warsaw Ghetto Uprising ( although the \u017bZW Jewish resistance organization claimed otherwise ) .",
+        "word": "resistance",
+        "gt": "None",
+        "old_pred": "None",
+        "rerank_pred": "None",
+        "prompt": [
+            "The `` \u017bydowska Organizacja Bojowa '' ( `` \u017bOB `` ) , Polish for the Jewish Combat Organization ; called in Yiddish \u05d9\u05d9\u05d3\u05d9\u05e9\u05e2 \u05e7\u05d0\u05de\u05e3 \u05d0\u05e8\u05d2\u05d0\u05e0\u05d9\u05d6\u05d0\u05e6\u05d9\u05e2 ) \u2013 a World War II resistance movement , which was instrumental in engineering the Warsaw Ghetto Uprising ( although the \u017bZW Jewish resistance organization claimed otherwise ) .\n\n(a) resistance do/does not belong to any known entities.\n(b) resistance is a political party/organization.\n(c) resistance pertains to an organization that does not fall under the categories of company, educational institution, government, media, political party, religion, sports league, sports team, band or musical group.\n(d) resistance is a religious organization.\n(e) resistance refers to a protest, uprising or revolution event\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "The `` \u017bydowska Organizacja Bojowa '' ( `` \u017bOB `` ) , Polish for the Jewish Combat Organization ; called in Yiddish \u05d9\u05d9\u05d3\u05d9\u05e9\u05e2 \u05e7\u05d0\u05de\u05e3 \u05d0\u05e8\u05d2\u05d0\u05e0\u05d9\u05d6\u05d0\u05e6\u05d9\u05e2 ) \u2013 a World War II resistance movement , which was instrumental in engineering the Warsaw Ghetto Uprising ( although the \u017bZW Jewish resistance organization claimed otherwise ) .",
+        "word": "\u017bZW Jewish",
+        "gt": "None",
+        "old_pred": "organization-politicalparty",
+        "rerank_pred": "None",
+        "prompt": [
+            "The `` \u017bydowska Organizacja Bojowa '' ( `` \u017bOB `` ) , Polish for the Jewish Combat Organization ; called in Yiddish \u05d9\u05d9\u05d3\u05d9\u05e9\u05e2 \u05e7\u05d0\u05de\u05e3 \u05d0\u05e8\u05d2\u05d0\u05e0\u05d9\u05d6\u05d0\u05e6\u05d9\u05e2 ) \u2013 a World War II resistance movement , which was instrumental in engineering the Warsaw Ghetto Uprising ( although the \u017bZW Jewish resistance organization claimed otherwise ) .\n\n(a) \u017bZW Jewish is a political party/organization.\n(b) \u017bZW Jewish pertains to an organization that does not fall under the categories of company, educational institution, government, media, political party, religion, sports league, sports team, band or musical group.\n(c) \u017bZW Jewish is a religious organization.\n(d) \u017bZW Jewish refers to a protest, uprising or revolution event\n(e) \u017bZW Jewish refers to some event except attack, election, natural disaster, protest, revolution and sports\n(f) \u017bZW Jewish do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (f)"
+    },
+    {
+        "sent": "The CHP recommended that no criminal charges be filed against anyone involved in `` Tapegate '' .",
+        "word": "CHP",
+        "gt": "organization-other",
+        "old_pred": "organization-other",
+        "rerank_pred": "organization-other",
+        "prompt": [
+            "The CHP recommended that no criminal charges be filed against anyone involved in `` Tapegate '' .\n\n(a) CHP pertains to an organization that does not fall under the categories of company, educational institution, government, media, political party, religion, sports league, sports team, band or musical group.\n(b) CHP refers to a government or governmental agency\n(c) CHP is a kind of geopolitical entity\n(d) CHP do/does not belong to any known entities.\n(e) CHP is a sports league\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "It now has been revitalized as an entertainment venue due to the efforts of The Franklin County Arts and Humanities Council and the support of local citizens. ,",
+        "word": "Arts",
+        "gt": "None",
+        "old_pred": "None",
+        "rerank_pred": "building-theater",
+        "prompt": [
+            "It now has been revitalized as an entertainment venue due to the efforts of The Franklin County Arts and Humanities Council and the support of local citizens. ,\n\n(a) Arts do/does not belong to any known entities.\n(b) Arts pertains to an organization that does not fall under the categories of company, educational institution, government, media, political party, religion, sports league, sports team, band or musical group.\n(c) Arts is a band or musical organization.\n(d) Arts is a theater.\n(e) Arts is a kind of geopolitical entity\n\nAnswer:"
+        ],
+        "raw_res": " (d)"
+    },
+    {
+        "sent": "She currently sits on the Nuclear Threat Initiative board , co-chaired by Senator Sam Nunn and Ted Turner , the Energy Future Coalition , the US Chamber of Commerce 's new Institute for 21st Century Energy , and the Air Force Academy 's Eisenhower Center for Space and Defense Studies .",
+        "word": "Institute for",
+        "gt": "None",
+        "old_pred": "organization-education",
+        "rerank_pred": "organization-company",
+        "prompt": [
+            "She currently sits on the Nuclear Threat Initiative board , co-chaired by Senator Sam Nunn and Ted Turner , the Energy Future Coalition , the US Chamber of Commerce 's new Institute for 21st Century Energy , and the Air Force Academy 's Eisenhower Center for Space and Defense Studies .\n\n(a) Institute for is an educational institute/organization.\n(b) Institute for pertains to an organization that does not fall under the categories of company, educational institution, government, media, political party, religion, sports league, sports team, band or musical group.\n(c) Institute for is a kind of building that does not fall under the categories of airport, hospital, hotel, library, restaurant, sports facility and theater\n(d) Institute for do/does not belong to any known entities.\n(e) Institute for is a company\n\nAnswer:"
+        ],
+        "raw_res": " (e)"
+    },
+    {
+        "sent": "She currently sits on the Nuclear Threat Initiative board , co-chaired by Senator Sam Nunn and Ted Turner , the Energy Future Coalition , the US Chamber of Commerce 's new Institute for 21st Century Energy , and the Air Force Academy 's Eisenhower Center for Space and Defense Studies .",
+        "word": "21st Century Energy",
+        "gt": "None",
+        "old_pred": "organization-other",
+        "rerank_pred": "organization-other",
+        "prompt": [
+            "She currently sits on the Nuclear Threat Initiative board , co-chaired by Senator Sam Nunn and Ted Turner , the Energy Future Coalition , the US Chamber of Commerce 's new Institute for 21st Century Energy , and the Air Force Academy 's Eisenhower Center for Space and Defense Studies .\n\n(a) 21st Century Energy pertains to an organization that does not fall under the categories of company, educational institution, government, media, political party, religion, sports league, sports team, band or musical group.\n(b) 21st Century Energy is an educational institute/organization.\n(c) 21st Century Energy is a kind of building that does not fall under the categories of airport, hospital, hotel, library, restaurant, sports facility and theater\n(d) 21st Century Energy is a company\n(e) 21st Century Energy is a library.\n(f) 21st Century Energy do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "26 \u2014 Sonata for Oboe and Pianoforte ( World premiere April 18 , 1961 at the Teatro La Fenice ( Sale Apolline e ) as part of the Venice Biennale International Festival of Contemporary music )",
+        "word": "Oboe",
+        "gt": "None",
+        "old_pred": "None",
+        "rerank_pred": "product-other",
+        "prompt": [
+            "26 \u2014 Sonata for Oboe and Pianoforte ( World premiere April 18 , 1961 at the Teatro La Fenice ( Sale Apolline e ) as part of the Venice Biennale International Festival of Contemporary music )\n\n(a) Oboe do/does not belong to any known entities.\n(b) Oboe is a music.\n(c) Oboe is a band or musical organization.\n(d) Oboe is an artist or author.\n(e) Oboe is a kind of product that does not fall under the categories of airplane, train, ship, car, weapon, food, game and software.\n\nAnswer:"
+        ],
+        "raw_res": " (e)"
+    },
+    {
+        "sent": "26 \u2014 Sonata for Oboe and Pianoforte ( World premiere April 18 , 1961 at the Teatro La Fenice ( Sale Apolline e ) as part of the Venice Biennale International Festival of Contemporary music )",
+        "word": "Pianoforte",
+        "gt": "None",
+        "old_pred": "art-music",
+        "rerank_pred": "art-music",
+        "prompt": [
+            "26 \u2014 Sonata for Oboe and Pianoforte ( World premiere April 18 , 1961 at the Teatro La Fenice ( Sale Apolline e ) as part of the Venice Biennale International Festival of Contemporary music )\n\n(a) Pianoforte is a music.\n(b) Pianoforte do/does not belong to any known entities.\n(c) Pianoforte is a band or musical organization.\n(d) Pianoforte is an artist or author.\n(e) Pianoforte is a kind of product that does not fall under the categories of airplane, train, ship, car, weapon, food, game and software.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "26 \u2014 Sonata for Oboe and Pianoforte ( World premiere April 18 , 1961 at the Teatro La Fenice ( Sale Apolline e ) as part of the Venice Biennale International Festival of Contemporary music )",
+        "word": "Apolline",
+        "gt": "None",
+        "old_pred": "None",
+        "rerank_pred": "building-theater",
+        "prompt": [
+            "26 \u2014 Sonata for Oboe and Pianoforte ( World premiere April 18 , 1961 at the Teatro La Fenice ( Sale Apolline e ) as part of the Venice Biennale International Festival of Contemporary music )\n\n(a) Apolline do/does not belong to any known entities.\n(b) Apolline is a kind of geopolitical entity\n(c) Apolline is a kind of building that does not fall under the categories of airport, hospital, hotel, library, restaurant, sports facility and theater\n(d) Apolline refers to some event except attack, election, natural disaster, protest, revolution and sports\n(e) Apolline is a theater.\n\nAnswer:"
+        ],
+        "raw_res": " (e)"
+    },
+    {
+        "sent": "The event was accompanied by an international Puccini symposium organized for the Taipei University .",
+        "word": "Puccini",
+        "gt": "None",
+        "old_pred": "art-other",
+        "rerank_pred": "None",
+        "prompt": [
+            "The event was accompanied by an international Puccini symposium organized for the Taipei University .\n\n(a) Puccini is a work of art, but not belong to the categories of music, film, written art, broadcast or painting.\n(b) Puccini is an artist or author.\n(c) Puccini is a music.\n(d) Puccini is a kind of writtenart.\n(e) Puccini is a band or musical organization.\n(f) Puccini do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (f)"
+    },
+    {
+        "sent": "It played a part in the foundation of the South Australian Museum , the State Library of South Australia ( via a merger with the Adelaide Mechanics ' Institute , creating the Mechanics ' Institute and South Australian Library ) , and the Royal Society of South Australia .",
+        "word": "Adelaide Mechanics",
+        "gt": "None",
+        "old_pred": "organization-education",
+        "rerank_pred": "organization-education",
+        "prompt": [
+            "It played a part in the foundation of the South Australian Museum , the State Library of South Australia ( via a merger with the Adelaide Mechanics ' Institute , creating the Mechanics ' Institute and South Australian Library ) , and the Royal Society of South Australia .\n\n(a) Adelaide Mechanics is an educational institute/organization.\n(b) Adelaide Mechanics is a library.\n(c) Adelaide Mechanics is a kind of building that does not fall under the categories of airport, hospital, hotel, library, restaurant, sports facility and theater\n(d) Adelaide Mechanics pertains to an organization that does not fall under the categories of company, educational institution, government, media, political party, religion, sports league, sports team, band or musical group.\n(e) Adelaide Mechanics is a hospital.\n(f) Adelaide Mechanics do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "It played a part in the foundation of the South Australian Museum , the State Library of South Australia ( via a merger with the Adelaide Mechanics ' Institute , creating the Mechanics ' Institute and South Australian Library ) , and the Royal Society of South Australia .",
+        "word": "Institute",
+        "gt": "None",
+        "old_pred": "organization-education",
+        "rerank_pred": "organization-education",
+        "prompt": [
+            "It played a part in the foundation of the South Australian Museum , the State Library of South Australia ( via a merger with the Adelaide Mechanics ' Institute , creating the Mechanics ' Institute and South Australian Library ) , and the Royal Society of South Australia .\n\n(a) Institute is an educational institute/organization.\n(b) Institute is a library.\n(c) Institute is a kind of building that does not fall under the categories of airport, hospital, hotel, library, restaurant, sports facility and theater\n(d) Institute pertains to an organization that does not fall under the categories of company, educational institution, government, media, political party, religion, sports league, sports team, band or musical group.\n(e) Institute is a hospital.\n(f) Institute do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "The convention was founded in December 1821 at First Baptist Church of Columbia with 9 total messengers in attendance .",
+        "word": "First Baptist",
+        "gt": "None",
+        "old_pred": "organization-religion",
+        "rerank_pred": "organization-religion",
+        "prompt": [
+            "The convention was founded in December 1821 at First Baptist Church of Columbia with 9 total messengers in attendance .\n\n(a) First Baptist is a religious organization.\n(b) First Baptist is a kind of building that does not fall under the categories of airport, hospital, hotel, library, restaurant, sports facility and theater\n(c) First Baptist is a theater.\n(d) First Baptist refers to a government or governmental agency\n(e) First Baptist is a sports facility building.\n(f) First Baptist do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "The convention was founded in December 1821 at First Baptist Church of Columbia with 9 total messengers in attendance .",
+        "word": "Church of Columbia",
+        "gt": "None",
+        "old_pred": "building-other",
+        "rerank_pred": "building-other",
+        "prompt": [
+            "The convention was founded in December 1821 at First Baptist Church of Columbia with 9 total messengers in attendance .\n\n(a) Church of Columbia is a kind of building that does not fall under the categories of airport, hospital, hotel, library, restaurant, sports facility and theater\n(b) Church of Columbia is a religious organization.\n(c) Church of Columbia is a theater.\n(d) Church of Columbia refers to a government or governmental agency\n(e) Church of Columbia is a geographic locaton that does not fall under the categories of geopolitical entity, body of water, island, mountain, park, road, railway and transit.\n(f) Church of Columbia do/does not belong to any known entities.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "( This conflict is also described on the Merneptah Stele , also known as the `` Israel Stele `` . )",
+        "word": "Merneptah",
+        "gt": "None",
+        "old_pred": "art-writtenart",
+        "rerank_pred": "art-writtenart",
+        "prompt": [
+            "( This conflict is also described on the Merneptah Stele , also known as the `` Israel Stele `` . )\n\n(a) Merneptah is a kind of writtenart.\n(b) Merneptah do/does not belong to any known entities.\n(c) Merneptah is an art painting.\n(d) Merneptah is a library.\n(e) Merneptah is geographic position about mountain.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    },
+    {
+        "sent": "According to the `` Wuyi '' theory , oolong tea first existed in the Wuyi Mountains region .",
+        "word": "Wuyi",
+        "gt": "None",
+        "old_pred": "None",
+        "rerank_pred": "None",
+        "prompt": [
+            "According to the `` Wuyi '' theory , oolong tea first existed in the Wuyi Mountains region .\n\n(a) Wuyi do/does not belong to any known entities.\n(b) Wuyi is a kind of food.\n(c) Wuyi refers to some event except attack, election, natural disaster, protest, revolution and sports\n(d) Wuyi is a religious organization.\n(e) Wuyi is a restaurant.\n\nAnswer:"
+        ],
+        "raw_res": " (a)"
+    }
+]
