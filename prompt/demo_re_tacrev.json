@@ -1,0 +1,24 @@
+[
+    {
+        "sent": "YANGON , Dec. 27 -LRB- Xinhua -RRB- -- Myanmar will hold a horse race in Yangon to commemorate the country 's 63rd Anniversary Independence Day , the [tstart] Myanmar Equestrian Federation [tend] -LRB- [hstart] MEF [hend] -RRB- confirmed to Xinhua on Monday .",
+        "explanation": "The symbols -LRB- and -RRB- in the sentence stand for left and right round brackets and are used to enclose the abbreviation 'MEF' to indicate that it is a replacement for the longer name 'Myanmar Equestrian Federation'. So MEF is also known as Myanmar Equestrian Federation.",
+        "candidate_label_list": ["org:alternate_names", "org:political/religious_affiliation", "None"],
+        "input": "Sentence: YANGON , Dec. 27 -LRB- Xinhua -RRB- -- Myanmar will hold a horse race in Yangon to commemorate the country 's 63rd Anniversary Independence Day , the [tstart] Myanmar Equestrian Federation [tend] -LRB- [hstart] MEF [hend] -RRB- confirmed to Xinhua on Monday .\n\nCandidate Choices: (a) MEF is also known as Myanmar Equestrian Federation\n(b) MEF has political affiliation with Myanmar Equestrian Federation\n(c) MEF has no known relations to Myanmar Equestrian Federation\n\nCorrect Answer: (a)"
+    },
+    {
+        "sent": "The [tstart] lawyer [tend] denied Italian news reports that she wept while addressing the court , but said Knox was upset as [hstart] she [hend] recounted `` the pressure , the aggressiveness of the police who called her a liar .",
+        "explanation": "In the sentence, the word 'she' refers to someone who was upset while recounting certain events in court. The word 'lawyer' refers to someone who denied a news report about that same person weeping in court. There is no information in the sentence to indicate that the two individuals are related in any way. So she has no known relations to lawyer.",
+        "candidate_label_list": ["per:other_family", "per:title", "None"],
+        "input": "The [tstart] lawyer [tend] denied Italian news reports that she wept while addressing the court , but said Knox was upset as [hstart] she [hend] recounted `` the pressure , the aggressiveness of the police who called her a liar . ''\n\nCandidate Choices:(a) she is the other family member of lawyer\n(b) she is a lawyer\n(c) she has no known relations to lawyer\n\nCorrect Answer: (c)"
+    },
+    {
+        "explanation": "The sentence states that 'Chief Financial Officer Douglas Flint will become chairman', indicating that he will be taking on the role of chairman. The phrase 'succeeding Stephen Green' indicates that Douglas Flint will be taking over the position previously held by Stephen Green. So Douglas Flint is a chairman",
+        "candidate_label_list": ["None", "per:title", "per:employee_of"],
+        "input": "Sentence: At the same time , Chief Financial Officer [hstart] Douglas Flint [hend] will become [tstart] chairman [tend] , succeeding Stephen Green who is leaving to take a government job .\n\nCandidate Choices:(a) Douglas Flint has no known relations to chairman\n(b) Douglas Flint is a chairman\n(c) Douglas Flint is the employee of chairman\n\nCorrect Answer: (b)"
+    },
+    {
+        "explanation": "The sentence states that 'U.S. District Court Judge Jeffrey White in mid-February issued an injunction against Wikileaks after the Zurich-based Bank Julius Baer accused the site of posting sensitive account information', indicating that Jeffrey White is a judge who made a ruling in a case involving Wikileaks and Julius Baer. The sentence does not suggest any personal or professional relationship between Julius Baer and Jeffrey White. So Julius Baer has no known relations to Jeffrey White.",
+        "candidate_label_list": ["org:alternate_names", "None", "org:country_of_headquarters"],
+        "input": "Sentence: U.S. District Court Judge [tstart] Jeffrey White [tend] in mid-February issued an injunction against Wikileaks after the Zurich-based Bank [htart] Julius Baer [hend] accused the site of posting sensitive account information stolen by a disgruntled former employee .\n\nCandidate Choices:(a) Julius Baer has the member Jeffrey White\n(b) Julius Baer has the high level member Jeffrey White\n(c) Julius Baer has no known relations to Jeffrey White\n\nAnswer: (c)"
+    }
+]
