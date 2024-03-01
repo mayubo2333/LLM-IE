@@ -14,13 +14,11 @@ We develop **filter-then-rerank** paradigm to solve IE tasks effectively and eff
 
 ## Prerequisite
 **Environment**
-```
 * python 3.8.13
 * Pytorch 1.10.1
 * openai 0.27.0
 * Transformers 4.24.0
 * backoff
-```
 
 **OpenAI API key**
 
