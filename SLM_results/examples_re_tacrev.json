@@ -1,0 +1,42 @@
+[
+    {
+        "sent": "He is survived by his son , Terry , of Temecula , Calif ; his daughters , [hstart] Carol Daniels [hend] of [tstart] Morro Bay [tend] , Calif , and Julie Jones of La Mesa , Calif ; three grandchildren ; and a great-granddaughter .",
+        "subj": "Carol Daniels",
+        "obj": "Morro Bay",
+        "gt": "per:cities_of_residence",
+        "pred": "per:city_of_birth",
+        "max_prob": 0.7095694541931152,
+        "candidate_label_list": [
+            "per:city_of_birth",
+            "org:city_of_headquarters",
+            "per:cities_of_residence",
+            "per:siblings",
+            "per:city_of_death",
+            "per:children",
+            "per:alternate_names",
+            "per:parents",
+            "org:members",
+            "per:country_of_death"
+        ]
+    },
+    {
+        "sent": "Adrien said he met the Baptists ' leader , [hstart] Laura Silsby [hend] of [tstart] Meridian [tend] , Idaho , in Port-au-Prince on Jan 26 .",
+        "subj": "Laura Silsby",
+        "obj": "Meridian",
+        "gt": "per:cities_of_residence",
+        "pred": "per:cities_of_residence",
+        "max_prob": 0.753559410572052,
+        "candidate_label_list": [
+            "per:cities_of_residence",
+            "org:city_of_headquarters",
+            "per:city_of_death",
+            "per:city_of_birth",
+            "per:employee_of",
+            "per:stateorprovinces_of_residence",
+            "per:country_of_death",
+            "per:title",
+            "org:top_members/employees",
+            "org:parents"
+        ]
+    }
+]

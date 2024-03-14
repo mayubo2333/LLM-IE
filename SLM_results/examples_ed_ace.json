@@ -1,0 +1,994 @@
+{
+    "Scott told police she did not tend to the baby , and it died after 30 minutes .": {
+        "Scott": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999020099639893,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Justice.Fine",
+                "Movement.Transport",
+                "Business.End-Org",
+                "Business.Merge-Org",
+                "Personnel.Start-Position",
+                "Life.Divorce",
+                "Transaction.Transfer-Ownership"
+            ],
+            "start": 0,
+            "end": 1
+        },
+        "told": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999059438705444,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Business.End-Org",
+                "Business.Merge-Org",
+                "Personnel.Start-Position",
+                "Justice.Fine",
+                "Movement.Transport",
+                "Life.Divorce",
+                "Transaction.Transfer-Ownership"
+            ],
+            "start": 1,
+            "end": 2
+        },
+        "police": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999035596847534,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Justice.Fine",
+                "Business.End-Org",
+                "Movement.Transport",
+                "Personnel.Start-Position",
+                "Business.Merge-Org",
+                "Life.Divorce",
+                "Justice.Arrest-Jail"
+            ],
+            "start": 2,
+            "end": 3
+        },
+        "she": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.999909520149231,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Business.End-Org",
+                "Justice.Fine",
+                "Business.Merge-Org",
+                "Personnel.Start-Position",
+                "Movement.Transport",
+                "Life.Divorce",
+                "Contact.Meet"
+            ],
+            "start": 3,
+            "end": 4
+        },
+        "did": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999054670333862,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Business.End-Org",
+                "Justice.Fine",
+                "Movement.Transport",
+                "Personnel.Start-Position",
+                "Business.Merge-Org",
+                "Life.Divorce",
+                "Transaction.Transfer-Ownership"
+            ],
+            "start": 4,
+            "end": 5
+        },
+        "not": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999077320098877,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Business.End-Org",
+                "Justice.Fine",
+                "Personnel.Start-Position",
+                "Movement.Transport",
+                "Business.Merge-Org",
+                "Contact.Meet",
+                "Life.Divorce"
+            ],
+            "start": 5,
+            "end": 6
+        },
+        "tend": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997921586036682,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Transaction.Transfer-Money",
+                "Justice.Fine",
+                "Life.Die",
+                "Business.Merge-Org",
+                "Contact.Meet",
+                "Personnel.Nominate",
+                "Business.End-Org",
+                "Business.Start-Org"
+            ],
+            "start": 6,
+            "end": 7
+        },
+        "to": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9998971223831177,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Justice.Fine",
+                "Business.End-Org",
+                "Business.Merge-Org",
+                "Life.Divorce",
+                "Transaction.Transfer-Ownership",
+                "Movement.Transport",
+                "Contact.Meet"
+            ],
+            "start": 7,
+            "end": 8
+        },
+        "the": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999048709869385,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Justice.Fine",
+                "Business.End-Org",
+                "Business.Merge-Org",
+                "Personnel.Start-Position",
+                "Movement.Transport",
+                "Life.Divorce",
+                "Transaction.Transfer-Ownership"
+            ],
+            "start": 8,
+            "end": 9
+        },
+        "baby": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.999880313873291,
+            "candidate_label_list": [
+                "None",
+                "Life.Die",
+                "Life.Be-Born",
+                "Justice.Fine",
+                "Personnel.Start-Position",
+                "Business.End-Org",
+                "Justice.Sentence",
+                "Movement.Transport",
+                "Transaction.Transfer-Ownership",
+                "Business.Start-Org"
+            ],
+            "start": 9,
+            "end": 10
+        },
+        ",": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999104738235474,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Personnel.Start-Position",
+                "Justice.Fine",
+                "Movement.Transport",
+                "Business.Merge-Org",
+                "Business.End-Org",
+                "Transaction.Transfer-Ownership",
+                "Contact.Meet"
+            ],
+            "start": 10,
+            "end": 11
+        },
+        "and": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999090433120728,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Justice.Fine",
+                "Business.End-Org",
+                "Business.Merge-Org",
+                "Personnel.Start-Position",
+                "Movement.Transport",
+                "Life.Divorce",
+                "Contact.Meet"
+            ],
+            "start": 11,
+            "end": 12
+        },
+        "it": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999030828475952,
+            "candidate_label_list": [
+                "None",
+                "Life.Die",
+                "Justice.Sentence",
+                "Personnel.Start-Position",
+                "Justice.Fine",
+                "Movement.Transport",
+                "Business.End-Org",
+                "Transaction.Transfer-Ownership",
+                "Contact.Meet",
+                "Business.Merge-Org"
+            ],
+            "start": 12,
+            "end": 13
+        },
+        "died": {
+            "gt": "Life.Die",
+            "pred": "Life.Die",
+            "max_prob": 0.9028406739234924,
+            "candidate_label_list": [
+                "Life.Die",
+                "Justice.Execute",
+                "Business.End-Org",
+                "Life.Injure",
+                "Personnel.End-Position",
+                "Justice.Convict",
+                "Justice.Fine",
+                "Justice.Pardon",
+                "Life.Divorce",
+                "Life.Marry"
+            ],
+            "start": 13,
+            "end": 14
+        },
+        "after": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999057054519653,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Business.End-Org",
+                "Life.Die",
+                "Business.Merge-Org",
+                "Justice.Fine",
+                "Personnel.Start-Position",
+                "Transaction.Transfer-Ownership",
+                "Movement.Transport",
+                "Life.Divorce"
+            ],
+            "start": 14,
+            "end": 15
+        },
+        "30": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999022483825684,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Business.End-Org",
+                "Business.Merge-Org",
+                "Justice.Fine",
+                "Personnel.Start-Position",
+                "Life.Divorce",
+                "Contact.Meet",
+                "Movement.Transport"
+            ],
+            "start": 15,
+            "end": 16
+        },
+        "minutes": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9998997449874878,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Business.Merge-Org",
+                "Contact.Meet",
+                "Business.End-Org",
+                "Life.Divorce",
+                "Justice.Fine",
+                "Personnel.Start-Position",
+                "Personnel.Nominate"
+            ],
+            "start": 16,
+            "end": 17
+        },
+        ".": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.999876856803894,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Justice.Fine",
+                "Life.Divorce",
+                "Business.End-Org",
+                "Business.Merge-Org",
+                "Contact.Meet",
+                "Transaction.Transfer-Ownership",
+                "Movement.Transport"
+            ],
+            "start": 17,
+            "end": 18
+        }
+    },
+    "The skeleton of a second baby has been found at a rural Wisconsin home where a 22-year - old woman 's dead infant was discovered in a blue plastic container June 8 , officials said Monday .": {
+        "The": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9998999834060669,
+            "candidate_label_list": [
+                "None",
+                "Life.Die",
+                "Justice.Sentence",
+                "Justice.Fine",
+                "Business.End-Org",
+                "Personnel.Start-Position",
+                "Life.Divorce",
+                "Movement.Transport",
+                "Business.Merge-Org",
+                "Contact.Meet"
+            ],
+            "start": 0,
+            "end": 1
+        },
+        "skeleton": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.999849796295166,
+            "candidate_label_list": [
+                "None",
+                "Life.Die",
+                "Justice.Fine",
+                "Business.End-Org",
+                "Justice.Sentence",
+                "Personnel.Start-Position",
+                "Movement.Transport",
+                "Justice.Charge-Indict",
+                "Business.Start-Org",
+                "Justice.Execute"
+            ],
+            "start": 1,
+            "end": 2
+        },
+        "of": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9998884201049805,
+            "candidate_label_list": [
+                "None",
+                "Life.Die",
+                "Business.End-Org",
+                "Justice.Sentence",
+                "Justice.Fine",
+                "Personnel.Start-Position",
+                "Business.Merge-Org",
+                "Movement.Transport",
+                "Life.Divorce",
+                "Transaction.Transfer-Ownership"
+            ],
+            "start": 2,
+            "end": 3
+        },
+        "a": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999045133590698,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Business.End-Org",
+                "Justice.Fine",
+                "Business.Merge-Org",
+                "Transaction.Transfer-Ownership",
+                "Life.Divorce",
+                "Personnel.Start-Position",
+                "Movement.Transport"
+            ],
+            "start": 26,
+            "end": 27
+        },
+        "second": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999034404754639,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Business.End-Org",
+                "Justice.Fine",
+                "Business.Merge-Org",
+                "Life.Divorce",
+                "Personnel.Start-Position",
+                "Movement.Transport",
+                "Transaction.Transfer-Ownership"
+            ],
+            "start": 4,
+            "end": 5
+        },
+        "baby": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9998713731765747,
+            "candidate_label_list": [
+                "None",
+                "Life.Die",
+                "Life.Be-Born",
+                "Personnel.Start-Position",
+                "Justice.Fine",
+                "Business.End-Org",
+                "Movement.Transport",
+                "Business.Start-Org",
+                "Conflict.Attack",
+                "Transaction.Transfer-Ownership"
+            ],
+            "start": 5,
+            "end": 6
+        },
+        "has": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999068975448608,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Business.End-Org",
+                "Justice.Fine",
+                "Personnel.Start-Position",
+                "Business.Merge-Org",
+                "Movement.Transport",
+                "Life.Divorce",
+                "Transaction.Transfer-Ownership"
+            ],
+            "start": 6,
+            "end": 7
+        },
+        "been": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999018907546997,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Business.End-Org",
+                "Justice.Fine",
+                "Business.Merge-Org",
+                "Personnel.Start-Position",
+                "Life.Divorce",
+                "Transaction.Transfer-Ownership",
+                "Movement.Transport"
+            ],
+            "start": 7,
+            "end": 8
+        },
+        "found": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9998487234115601,
+            "candidate_label_list": [
+                "None",
+                "Life.Die",
+                "Business.End-Org",
+                "Justice.Fine",
+                "Justice.Charge-Indict",
+                "Justice.Sentence",
+                "Justice.Convict",
+                "Business.Merge-Org",
+                "Business.Start-Org",
+                "Personnel.End-Position"
+            ],
+            "start": 8,
+            "end": 9
+        },
+        "at": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.999901533126831,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Business.End-Org",
+                "Transaction.Transfer-Ownership",
+                "Business.Merge-Org",
+                "Justice.Fine",
+                "Personnel.Start-Position",
+                "Life.Divorce",
+                "Movement.Transport"
+            ],
+            "start": 9,
+            "end": 10
+        },
+        "rural": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999009370803833,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Business.End-Org",
+                "Justice.Fine",
+                "Business.Merge-Org",
+                "Life.Divorce",
+                "Transaction.Transfer-Ownership",
+                "Movement.Transport",
+                "Contact.Meet"
+            ],
+            "start": 11,
+            "end": 12
+        },
+        "Wisconsin": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.999901294708252,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Justice.Fine",
+                "Business.Merge-Org",
+                "Business.End-Org",
+                "Movement.Transport",
+                "Personnel.Start-Position",
+                "Life.Divorce",
+                "Contact.Meet"
+            ],
+            "start": 12,
+            "end": 13
+        },
+        "home": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9998974800109863,
+            "candidate_label_list": [
+                "None",
+                "Life.Die",
+                "Business.End-Org",
+                "Justice.Sentence",
+                "Justice.Fine",
+                "Business.Merge-Org",
+                "Life.Divorce",
+                "Movement.Transport",
+                "Transaction.Transfer-Ownership",
+                "Personnel.Start-Position"
+            ],
+            "start": 13,
+            "end": 14
+        },
+        "where": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999054670333862,
+            "candidate_label_list": [
+                "None",
+                "Life.Die",
+                "Justice.Sentence",
+                "Business.Merge-Org",
+                "Business.End-Org",
+                "Personnel.Start-Position",
+                "Justice.Fine",
+                "Movement.Transport",
+                "Contact.Meet",
+                "Life.Divorce"
+            ],
+            "start": 14,
+            "end": 15
+        },
+        "22-year": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9998990297317505,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Justice.Fine",
+                "Business.Merge-Org",
+                "Business.End-Org",
+                "Life.Divorce",
+                "Contact.Meet",
+                "Personnel.Start-Position",
+                "Justice.Convict"
+            ],
+            "start": 16,
+            "end": 17
+        },
+        "-": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999077320098877,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Justice.Fine",
+                "Life.Die",
+                "Business.End-Org",
+                "Personnel.Start-Position",
+                "Business.Merge-Org",
+                "Movement.Transport",
+                "Transaction.Transfer-Ownership",
+                "Life.Divorce"
+            ],
+            "start": 17,
+            "end": 18
+        },
+        "old": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999068975448608,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Business.End-Org",
+                "Justice.Fine",
+                "Personnel.Start-Position",
+                "Business.Merge-Org",
+                "Life.Divorce",
+                "Transaction.Transfer-Ownership",
+                "Movement.Transport"
+            ],
+            "start": 18,
+            "end": 19
+        },
+        "woman": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999029636383057,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Justice.Fine",
+                "Business.End-Org",
+                "Business.Merge-Org",
+                "Personnel.Start-Position",
+                "Movement.Transport",
+                "Life.Divorce",
+                "Transaction.Transfer-Ownership"
+            ],
+            "start": 19,
+            "end": 20
+        },
+        "'s": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999098777770996,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Justice.Fine",
+                "Business.End-Org",
+                "Personnel.Start-Position",
+                "Movement.Transport",
+                "Business.Merge-Org",
+                "Transaction.Transfer-Ownership",
+                "Life.Divorce"
+            ],
+            "start": 20,
+            "end": 21
+        },
+        "dead": {
+            "gt": "Life.Die",
+            "pred": "None",
+            "max_prob": 0.9961827397346497,
+            "candidate_label_list": [
+                "None",
+                "Life.Die",
+                "Justice.Execute",
+                "Movement.Transport",
+                "Justice.Fine",
+                "Business.End-Org",
+                "Life.Be-Born",
+                "Contact.Phone-Write",
+                "Personnel.End-Position",
+                "Life.Injure"
+            ],
+            "start": 21,
+            "end": 22
+        },
+        "infant": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9998589754104614,
+            "candidate_label_list": [
+                "None",
+                "Life.Die",
+                "Life.Be-Born",
+                "Justice.Charge-Indict",
+                "Personnel.Start-Position",
+                "Conflict.Attack",
+                "Justice.Fine",
+                "Movement.Transport",
+                "Transaction.Transfer-Ownership",
+                "Business.End-Org"
+            ],
+            "start": 22,
+            "end": 23
+        },
+        "was": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999046325683594,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Business.End-Org",
+                "Justice.Fine",
+                "Personnel.Start-Position",
+                "Movement.Transport",
+                "Business.Merge-Org",
+                "Transaction.Transfer-Ownership",
+                "Life.Divorce"
+            ],
+            "start": 23,
+            "end": 24
+        },
+        "discovered": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9984604120254517,
+            "candidate_label_list": [
+                "None",
+                "Justice.Execute",
+                "Justice.Charge-Indict",
+                "Life.Die",
+                "Business.End-Org",
+                "Personnel.End-Position",
+                "Conflict.Attack",
+                "Transaction.Transfer-Ownership",
+                "Justice.Pardon",
+                "Justice.Convict"
+            ],
+            "start": 24,
+            "end": 25
+        },
+        "in": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999003410339355,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Justice.Fine",
+                "Business.End-Org",
+                "Business.Merge-Org",
+                "Life.Divorce",
+                "Transaction.Transfer-Ownership",
+                "Personnel.Start-Position",
+                "Movement.Transport"
+            ],
+            "start": 25,
+            "end": 26
+        },
+        "blue": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999008178710938,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Justice.Fine",
+                "Business.End-Org",
+                "Business.Merge-Org",
+                "Life.Divorce",
+                "Transaction.Transfer-Ownership",
+                "Personnel.Start-Position",
+                "Movement.Transport"
+            ],
+            "start": 27,
+            "end": 28
+        },
+        "plastic": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999054670333862,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Business.End-Org",
+                "Business.Merge-Org",
+                "Justice.Fine",
+                "Transaction.Transfer-Ownership",
+                "Personnel.Start-Position",
+                "Movement.Transport",
+                "Life.Divorce"
+            ],
+            "start": 28,
+            "end": 29
+        },
+        "container": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9998989105224609,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Justice.Fine",
+                "Business.End-Org",
+                "Business.Merge-Org",
+                "Transaction.Transfer-Ownership",
+                "Life.Divorce",
+                "Movement.Transport",
+                "Personnel.Start-Position"
+            ],
+            "start": 29,
+            "end": 30
+        },
+        "June": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.999893069267273,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Business.Merge-Org",
+                "Business.End-Org",
+                "Life.Divorce",
+                "Justice.Fine",
+                "Justice.Convict",
+                "Contact.Meet",
+                "Personnel.Start-Position"
+            ],
+            "start": 30,
+            "end": 31
+        },
+        "8": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999053478240967,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Business.Merge-Org",
+                "Personnel.Start-Position",
+                "Justice.Charge-Indict",
+                "Business.End-Org",
+                "Justice.Fine",
+                "Justice.Arrest-Jail",
+                "Contact.Meet"
+            ],
+            "start": 31,
+            "end": 32
+        },
+        ",": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999092817306519,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Personnel.Start-Position",
+                "Life.Die",
+                "Justice.Fine",
+                "Movement.Transport",
+                "Business.End-Org",
+                "Business.Merge-Org",
+                "Transaction.Transfer-Ownership",
+                "Conflict.Attack"
+            ],
+            "start": 32,
+            "end": 33
+        },
+        "officials": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999057054519653,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Business.End-Org",
+                "Justice.Fine",
+                "Business.Merge-Org",
+                "Personnel.Start-Position",
+                "Life.Divorce",
+                "Transaction.Transfer-Ownership",
+                "Contact.Meet"
+            ],
+            "start": 33,
+            "end": 34
+        },
+        "said": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9999047517776489,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Business.End-Org",
+                "Business.Merge-Org",
+                "Justice.Fine",
+                "Personnel.Start-Position",
+                "Life.Divorce",
+                "Movement.Transport",
+                "Contact.Meet"
+            ],
+            "start": 34,
+            "end": 35
+        },
+        "Monday": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9998971223831177,
+            "candidate_label_list": [
+                "None",
+                "Justice.Fine",
+                "Justice.Sentence",
+                "Life.Die",
+                "Movement.Transport",
+                "Personnel.Start-Position",
+                "Conflict.Attack",
+                "Business.End-Org",
+                "Transaction.Transfer-Ownership",
+                "Business.Merge-Org"
+            ],
+            "start": 35,
+            "end": 36
+        },
+        ".": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9998772144317627,
+            "candidate_label_list": [
+                "None",
+                "Justice.Sentence",
+                "Life.Die",
+                "Justice.Fine",
+                "Life.Divorce",
+                "Business.End-Org",
+                "Business.Merge-Org",
+                "Contact.Meet",
+                "Transaction.Transfer-Ownership",
+                "Movement.Transport"
+            ],
+            "start": 36,
+            "end": 37
+        }
+    }
+}

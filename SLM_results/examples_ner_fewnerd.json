@@ -1,0 +1,766 @@
+{
+    "All current Platinum Family Hits are rated `` E '' by the ESRB , except for T-rated `` X-Men Legends `` and three E10+ rated games `` Sonic the Hedgehog `` , ' and ' .": {
+        "All": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997380375862122,
+            "candidate_label_list": [
+                "None",
+                "location-GPE",
+                "person-other",
+                "event-sportsevent",
+                "person-artist/author",
+                "organization-sportsteam",
+                "organization-other",
+                "art-music",
+                "art-painting",
+                "person-politician"
+            ],
+            "start": 0,
+            "end": 1
+        },
+        "current": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997389912605286,
+            "candidate_label_list": [
+                "None",
+                "location-GPE",
+                "person-other",
+                "event-sportsevent",
+                "organization-other",
+                "person-artist/author",
+                "organization-sportsteam",
+                "art-music",
+                "art-painting",
+                "art-film"
+            ],
+            "start": 1,
+            "end": 2
+        },
+        "Platinum Family Hits": {
+            "gt": "product-game",
+            "pred": "product-game",
+            "max_prob": 0.9807054400444031,
+            "candidate_label_list": [
+                "product-game",
+                "product-software",
+                "art-other",
+                "art-music",
+                "product-weapon",
+                "location-park",
+                "location-mountain",
+                "product-other",
+                "person-other",
+                "art-writtenart"
+            ],
+            "start": 2,
+            "end": 5
+        },
+        "are": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997394680976868,
+            "candidate_label_list": [
+                "None",
+                "person-other",
+                "location-GPE",
+                "organization-other",
+                "event-sportsevent",
+                "organization-sportsteam",
+                "person-artist/author",
+                "art-music",
+                "art-painting",
+                "art-film"
+            ],
+            "start": 5,
+            "end": 6
+        },
+        "rated": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997324347496033,
+            "candidate_label_list": [
+                "None",
+                "person-other",
+                "location-GPE",
+                "organization-other",
+                "event-sportsevent",
+                "organization-sportsteam",
+                "person-artist/author",
+                "art-music",
+                "art-film",
+                "other-god"
+            ],
+            "start": 24,
+            "end": 25
+        },
+        "``": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997088313102722,
+            "candidate_label_list": [
+                "None",
+                "location-GPE",
+                "person-other",
+                "event-sportsevent",
+                "organization-other",
+                "organization-sportsteam",
+                "person-artist/author",
+                "art-music",
+                "art-painting",
+                "art-film"
+            ],
+            "start": 30,
+            "end": 31
+        },
+        "E": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9991264939308167,
+            "candidate_label_list": [
+                "None",
+                "location-GPE",
+                "person-other",
+                "product-other",
+                "product-software",
+                "event-sportsevent",
+                "art-other",
+                "organization-other",
+                "art-music",
+                "organization-sportsteam"
+            ],
+            "start": 8,
+            "end": 9
+        },
+        "''": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9996399879455566,
+            "candidate_label_list": [
+                "None",
+                "person-other",
+                "location-GPE",
+                "organization-other",
+                "event-sportsevent",
+                "organization-sportsteam",
+                "art-other",
+                "person-artist/author",
+                "building-library",
+                "art-music"
+            ],
+            "start": 9,
+            "end": 10
+        },
+        "by": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997281432151794,
+            "candidate_label_list": [
+                "None",
+                "person-other",
+                "location-GPE",
+                "organization-other",
+                "event-sportsevent",
+                "organization-sportsteam",
+                "person-artist/author",
+                "art-music",
+                "other-god",
+                "building-other"
+            ],
+            "start": 10,
+            "end": 11
+        },
+        "the": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997233748435974,
+            "candidate_label_list": [
+                "None",
+                "person-other",
+                "location-GPE",
+                "organization-other",
+                "event-sportsevent",
+                "organization-sportsteam",
+                "person-artist/author",
+                "art-music",
+                "art-film",
+                "building-other"
+            ],
+            "start": 11,
+            "end": 12
+        },
+        "ESRB": {
+            "gt": "organization-other",
+            "pred": "organization-other",
+            "max_prob": 0.5387888550758362,
+            "candidate_label_list": [
+                "organization-other",
+                "organization-company",
+                "organization-media/newspaper",
+                "product-other",
+                "organization-sportsleague",
+                "person-other",
+                "building-library",
+                "other-award",
+                "location-GPE",
+                "None"
+            ],
+            "start": 12,
+            "end": 13
+        },
+        ",": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997313618659973,
+            "candidate_label_list": [
+                "None",
+                "location-GPE",
+                "person-other",
+                "event-sportsevent",
+                "organization-other",
+                "person-artist/author",
+                "organization-sportsteam",
+                "art-music",
+                "art-painting",
+                "art-film"
+            ],
+            "start": 31,
+            "end": 32
+        },
+        "except": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997385144233704,
+            "candidate_label_list": [
+                "None",
+                "location-GPE",
+                "person-other",
+                "event-sportsevent",
+                "organization-other",
+                "person-artist/author",
+                "organization-sportsteam",
+                "art-music",
+                "art-painting",
+                "building-other"
+            ],
+            "start": 14,
+            "end": 15
+        },
+        "for": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997416138648987,
+            "candidate_label_list": [
+                "None",
+                "location-GPE",
+                "person-other",
+                "organization-other",
+                "event-sportsevent",
+                "person-artist/author",
+                "organization-sportsteam",
+                "art-music",
+                "art-painting",
+                "building-other"
+            ],
+            "start": 15,
+            "end": 16
+        },
+        "T-rated": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9996418952941895,
+            "candidate_label_list": [
+                "None",
+                "person-other",
+                "location-GPE",
+                "organization-other",
+                "organization-sportsteam",
+                "event-sportsevent",
+                "art-other",
+                "art-music",
+                "organization-sportsleague",
+                "person-artist/author"
+            ],
+            "start": 16,
+            "end": 17
+        },
+        "X-Men Legends": {
+            "gt": "product-game",
+            "pred": "product-game",
+            "max_prob": 0.9889832139015198,
+            "candidate_label_list": [
+                "product-game",
+                "product-software",
+                "product-weapon",
+                "art-music",
+                "None",
+                "art-other",
+                "person-other",
+                "art-film",
+                "location-park",
+                "location-mountain"
+            ],
+            "start": 18,
+            "end": 20
+        },
+        "and": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997280240058899,
+            "candidate_label_list": [
+                "None",
+                "person-other",
+                "location-GPE",
+                "organization-other",
+                "event-sportsevent",
+                "organization-sportsteam",
+                "person-artist/author",
+                "art-music",
+                "art-film",
+                "art-painting"
+            ],
+            "start": 33,
+            "end": 34
+        },
+        "three": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997374415397644,
+            "candidate_label_list": [
+                "None",
+                "person-other",
+                "location-GPE",
+                "event-sportsevent",
+                "organization-other",
+                "person-artist/author",
+                "organization-sportsteam",
+                "art-music",
+                "art-painting",
+                "art-film"
+            ],
+            "start": 22,
+            "end": 23
+        },
+        "E10+": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9992228746414185,
+            "candidate_label_list": [
+                "None",
+                "person-other",
+                "location-GPE",
+                "product-other",
+                "product-game",
+                "event-sportsevent",
+                "art-music",
+                "product-software",
+                "art-other",
+                "organization-other"
+            ],
+            "start": 23,
+            "end": 24
+        },
+        "games": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997202754020691,
+            "candidate_label_list": [
+                "None",
+                "person-other",
+                "location-GPE",
+                "event-sportsevent",
+                "organization-other",
+                "organization-sportsteam",
+                "art-music",
+                "person-artist/author",
+                "art-film",
+                "art-other"
+            ],
+            "start": 25,
+            "end": 26
+        },
+        "Sonic the Hedgehog": {
+            "gt": "product-game",
+            "pred": "product-game",
+            "max_prob": 0.9923667311668396,
+            "candidate_label_list": [
+                "product-game",
+                "product-software",
+                "product-weapon",
+                "art-music",
+                "location-mountain",
+                "art-writtenart",
+                "location-park",
+                "art-film",
+                "person-athlete",
+                "person-other"
+            ],
+            "start": 27,
+            "end": 30
+        },
+        "'": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9996985197067261,
+            "candidate_label_list": [
+                "None",
+                "person-other",
+                "location-GPE",
+                "organization-other",
+                "organization-sportsteam",
+                "event-sportsevent",
+                "person-artist/author",
+                "art-music",
+                "art-film",
+                "art-other"
+            ],
+            "start": 34,
+            "end": 35
+        },
+        ".": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997302889823914,
+            "candidate_label_list": [
+                "None",
+                "person-other",
+                "location-GPE",
+                "organization-other",
+                "event-sportsevent",
+                "organization-sportsteam",
+                "person-artist/author",
+                "art-music",
+                "art-painting",
+                "art-film"
+            ],
+            "start": 35,
+            "end": 36
+        }
+    },
+    "In 2016 , a remastered version titled Battlezone 98 Redux was released developed by Big Boat Interactive and published by Rebellion Developments .": {
+        "In": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.999739944934845,
+            "candidate_label_list": [
+                "None",
+                "location-GPE",
+                "person-other",
+                "event-sportsevent",
+                "person-artist/author",
+                "organization-other",
+                "organization-sportsteam",
+                "art-music",
+                "art-painting",
+                "art-film"
+            ],
+            "start": 0,
+            "end": 1
+        },
+        "2016": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997324347496033,
+            "candidate_label_list": [
+                "None",
+                "location-GPE",
+                "person-other",
+                "event-sportsevent",
+                "organization-other",
+                "person-artist/author",
+                "organization-sportsteam",
+                "art-music",
+                "art-painting",
+                "art-film"
+            ],
+            "start": 1,
+            "end": 2
+        },
+        ",": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997428059577942,
+            "candidate_label_list": [
+                "None",
+                "location-GPE",
+                "person-other",
+                "organization-other",
+                "event-sportsevent",
+                "person-artist/author",
+                "organization-sportsteam",
+                "art-music",
+                "art-painting",
+                "art-film"
+            ],
+            "start": 2,
+            "end": 3
+        },
+        "a": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997432827949524,
+            "candidate_label_list": [
+                "None",
+                "person-other",
+                "location-GPE",
+                "organization-other",
+                "event-sportsevent",
+                "person-artist/author",
+                "organization-sportsteam",
+                "art-music",
+                "art-painting",
+                "art-film"
+            ],
+            "start": 3,
+            "end": 4
+        },
+        "remastered": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997367262840271,
+            "candidate_label_list": [
+                "None",
+                "location-GPE",
+                "person-other",
+                "event-sportsevent",
+                "person-artist/author",
+                "organization-other",
+                "art-music",
+                "organization-sportsteam",
+                "art-painting",
+                "building-other"
+            ],
+            "start": 4,
+            "end": 5
+        },
+        "version": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997381567955017,
+            "candidate_label_list": [
+                "None",
+                "location-GPE",
+                "person-other",
+                "event-sportsevent",
+                "organization-other",
+                "person-artist/author",
+                "organization-sportsteam",
+                "art-music",
+                "art-painting",
+                "building-other"
+            ],
+            "start": 5,
+            "end": 6
+        },
+        "titled": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997437596321106,
+            "candidate_label_list": [
+                "None",
+                "location-GPE",
+                "person-other",
+                "event-sportsevent",
+                "organization-other",
+                "person-artist/author",
+                "organization-sportsteam",
+                "art-music",
+                "building-other",
+                "art-painting"
+            ],
+            "start": 6,
+            "end": 7
+        },
+        "Battlezone 98 Redux": {
+            "gt": "product-game",
+            "pred": "product-game",
+            "max_prob": 0.9843458533287048,
+            "candidate_label_list": [
+                "product-game",
+                "product-weapon",
+                "product-software",
+                "event-attack/battle/war/militaryconflict",
+                "art-music",
+                "location-mountain",
+                "art-writtenart",
+                "person-other",
+                "None",
+                "art-film"
+            ],
+            "start": 7,
+            "end": 10
+        },
+        "was": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997441172599792,
+            "candidate_label_list": [
+                "None",
+                "location-GPE",
+                "person-other",
+                "organization-other",
+                "event-sportsevent",
+                "person-artist/author",
+                "organization-sportsteam",
+                "art-music",
+                "art-painting",
+                "building-other"
+            ],
+            "start": 10,
+            "end": 11
+        },
+        "released": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997397065162659,
+            "candidate_label_list": [
+                "None",
+                "location-GPE",
+                "person-other",
+                "event-sportsevent",
+                "person-artist/author",
+                "organization-other",
+                "organization-sportsteam",
+                "art-music",
+                "building-other",
+                "art-painting"
+            ],
+            "start": 11,
+            "end": 12
+        },
+        "developed": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997372031211853,
+            "candidate_label_list": [
+                "None",
+                "location-GPE",
+                "person-other",
+                "event-sportsevent",
+                "organization-other",
+                "person-artist/author",
+                "organization-sportsteam",
+                "art-music",
+                "building-other",
+                "art-painting"
+            ],
+            "start": 12,
+            "end": 13
+        },
+        "by": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997374415397644,
+            "candidate_label_list": [
+                "None",
+                "location-GPE",
+                "person-other",
+                "event-sportsevent",
+                "organization-other",
+                "person-artist/author",
+                "organization-sportsteam",
+                "art-music",
+                "building-other",
+                "art-painting"
+            ],
+            "start": 19,
+            "end": 20
+        },
+        "Big Boat Interactive": {
+            "gt": "organization-company",
+            "pred": "organization-company",
+            "max_prob": 0.9853084683418274,
+            "candidate_label_list": [
+                "organization-company",
+                "person-director",
+                "product-software",
+                "organization-media/newspaper",
+                "product-other",
+                "person-other",
+                "organization-showorganization",
+                "organization-other",
+                "organization-sportsleague",
+                "building-airport"
+            ],
+            "start": 14,
+            "end": 17
+        },
+        "and": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.999743640422821,
+            "candidate_label_list": [
+                "None",
+                "location-GPE",
+                "person-other",
+                "organization-other",
+                "event-sportsevent",
+                "person-artist/author",
+                "organization-sportsteam",
+                "art-music",
+                "art-painting",
+                "building-other"
+            ],
+            "start": 17,
+            "end": 18
+        },
+        "published": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997380375862122,
+            "candidate_label_list": [
+                "None",
+                "location-GPE",
+                "person-other",
+                "event-sportsevent",
+                "person-artist/author",
+                "organization-other",
+                "organization-sportsteam",
+                "art-music",
+                "building-other",
+                "art-painting"
+            ],
+            "start": 18,
+            "end": 19
+        },
+        "Rebellion Developments": {
+            "gt": "organization-company",
+            "pred": "organization-company",
+            "max_prob": 0.9871695041656494,
+            "candidate_label_list": [
+                "organization-company",
+                "person-director",
+                "product-software",
+                "product-other",
+                "organization-media/newspaper",
+                "organization-other",
+                "person-other",
+                "building-airport",
+                "organization-sportsleague",
+                "organization-showorganization"
+            ],
+            "start": 20,
+            "end": 22
+        },
+        ".": {
+            "gt": "None",
+            "pred": "None",
+            "max_prob": 0.9997414946556091,
+            "candidate_label_list": [
+                "None",
+                "person-other",
+                "location-GPE",
+                "organization-other",
+                "event-sportsevent",
+                "person-artist/author",
+                "organization-sportsteam",
+                "art-music",
+                "art-painting",
+                "art-film"
+            ],
+            "start": 22,
+            "end": 23
+        }
+    }
+}

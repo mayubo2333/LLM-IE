@@ -33,7 +33,7 @@ Unfortunately, we only provide the SLM's preliminary predictions of FewNERD data
 
 1. Run SLM-based methods (for example, vanilla fine-tuning) on these datasets.
 
-2. Save the results in `./SLM_results`. For TACREV (relation extraction task) and ACE05 (event detection task), please save the predictions as the format shown in `./SLM_results/examples_re_tacrev` and `./SLM_results/examples_ed_ace`, respectively.
+2. Save the results in `./SLM_results`. For TACREV (relation extraction task) and ACE05 (event detection task), please save the predictions as the format shown in `./SLM_results/examples_re_tacrev.json` and `./SLM_results/examples_ed_ace.json`, respectively.
 
 
 ## Quick start
