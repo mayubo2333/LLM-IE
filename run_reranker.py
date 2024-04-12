@@ -39,9 +39,9 @@ if __name__ == "__main__":
     
     args.task, args.dataset = args.dataset_name.split("_")
     if args.task=="RE":
-        from chat_re_reranker import rerank, get_res_list
+        from reranker.re_reranker import rerank, get_res_list
     else:
-        from chat_ner_reranker import rerank, get_res_list
+        from reranker.ner_reranker import rerank, get_res_list
     set_seed(args.seed)
 
     if not os.path.exists(args.output_path):
