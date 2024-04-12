@@ -1,13 +1,14 @@
 import json
-import asyncio
+import torch
 
 from tqdm import tqdm
 from random import shuffle
 from itertools import chain
+from transformers import AutoTokenizer, AutoModelForCausalLM
 
 from utils import parse_res, ensemble_pred_res, list_merge
 from parameters import TEMPLATE_FEWNERD, TEMPLATE_ACE, ORD_A
-from openai_wrapper import dispatch_openai_requests
+from LLM_wrapper import generate_response
 
 
 def prompt_generation(res, topk=3, explanation_given=False, task="NER", is_shuffle=False):
@@ -95,6 +96,14 @@ def rerank(
     demo_candidate_list=None,
     explanation_given=False,
 ):
+    if args.model_name!="gpt-4":
+        tokenizer = AutoTokenizer.from_pretrained(args.model_name)
+        model = AutoModelForCausalLM.from_pretrained(
+            args.model_name,
+            device_map="auto",
+            torch_dtype=torch.float16,
+        )
+    
     raw_res_list, prompt_list = list(), list()
     repeated_rerank_res_list = list(chain(*[[example]*args.repeat_time for example in rerank_res_list]))
     for curr in tqdm(range(0, len(repeated_rerank_res_list), args.batch_size)):
@@ -106,17 +115,17 @@ def rerank(
             ] for res in batch_rerank_list
         ] 
         prompt_list.extend(batch_prompt)
-        response = asyncio.run(
-            dispatch_openai_requests(
-                model=args.model_name,
-                messages_list=batch_prompt,
-                temperature=args.temperature,
-            )
+        batch_response = generate_response(
+            model_or_model_name=model if args.model_name!="gpt-4" else args.model_name,
+            tokenizer=tokenizer if args.model_name!="gpt-4" else None,
+            batch_prompt=batch_prompt, 
+            temperature=args.temperature,
+            max_tokens=128 if args.explanation_given else 32,
+            stop='\n\n' if args.demo_given else '\n',
+            device=args.device
         )
-        batch_response = [
-            x['choices'][0]['message']['content'] if isinstance(x, dict) else "OpenAI Output Error" for x in response
-        ]
         raw_res_list.extend(batch_response)
+
     assert(len(raw_res_list)//args.repeat_time==len(rerank_res_list))
     merged_prompt_list = list_merge(prompt_list, args.repeat_time)
     raw_res_list, _ = ensemble_pred_res(raw_res_list, args.repeat_time, task="RE")

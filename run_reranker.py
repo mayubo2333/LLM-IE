@@ -1,6 +1,5 @@
 import os
 import json
-import openai
 import argparse
 import numpy as np
 
@@ -22,6 +21,7 @@ if __name__ == "__main__":
     parser.add_argument("--repeat_time", default=1, type=int)
     parser.add_argument("--topk", default=3, type=int)
     parser.add_argument("--seed", default=42, type=int)
+    parser.add_argument("--device", default="cuda", type=str)
 
     parser.add_argument('--is_shuffle', action='store_true', default=False, help="whether to shuffle the order of candidate label list in the multi-choice question. If not, the order will be determined by their confidence scores.")
     parser.add_argument('--demo_given', action='store_true', default=False, help="whether to provide demonstratons or not.")

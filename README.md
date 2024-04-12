@@ -11,18 +11,22 @@ We develop **filter-then-rerank** paradigm to solve IE tasks effectively and eff
 * Reranker: A large LM. We convert each difficult sample with their candidate answers to a multi-choice question. Given several demonstrations, we ask the reranker to analyze and answer this question.
 
 
+## Update
+* 2024.04.12: Support open-source LLM-rerankerss now. Test on vicuna-7b-v1.5 and Mistral-7B-Instruct-v0.2
+* 2024.02.29: Code Release. Sorry for the delay.
 
 ## Prerequisite
 **Environment**
 * python 3.8.13
 * Pytorch 1.10.1
 * openai 0.27.0
-* Transformers 4.24.0
+* Transformers 4.36.0
 * backoff
+* sentencepiece
 
 **OpenAI API key**
 
-We use GPT-4 as the reranker. Please set up your openAI API key by:
+It you use GPT-4 as the reranker, please set up your openAI API key by:
 ```
 export OPENAI_API_KEY=[your api key]
 ```
@@ -39,21 +43,21 @@ Unfortunately, we only provide the SLM's preliminary predictions of FewNERD data
 ## Quick start
 **FewNERD**
 ```
-bash ./scripts/run_ner_fewnerd.sh
+MODEL_NAME=[gpt-4|Mistral-7B-Instruct-v0.2|...] bash ./scripts/run_ner_fewnerd.sh
 ```
 
 **TACREV**
 ```
 # To run this command, you shall firstly generate and save corresponding SLM's predictions.
 # Then complete the env variables SLM_RES_PATH and OUT_PATH in the script.
-bash ./scripts/run_re_tacrev.sh
+MODEL_NAME=[gpt-4|Mistral-7B-Instruct-v0.2|...] bash ./scripts/run_re_tacrev.sh
 ```
 
 **ACE05**
 ```
 # To run this command, you shall firstly generate and save corresponding SLM's predictions.
 # Then complete the env variables SLM_RES_PATH and OUT_PATH in the script.
-bash ./scripts/run_ed_ace.sh
+MODEL_NAME=[gpt-4|Mistral-7B-Instruct-v0.2|...] bash ./scripts/run_ed_ace.sh
 ```
 
 ## Citation
